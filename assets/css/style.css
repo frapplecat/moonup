@@ -9,3 +9,32 @@ body {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
 }
+
+nav a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 150%;
+    color: #fff;
+    text-transform: uppercase;
+    margin-right: 75px;
+    text-decoration: none;
+    line-height: 125px;
+}
+
+#menu {
+    float: right;
+}
+
+nav a:hover {
+    color: rgb(250, 200, 5)
+}
+
+.active {
+    color: rgb(250, 200, 5);
+}
+
+#hero-image {
+    height: 1100px;
+    width: 100%;
+    background: url(../images/pexels-pixabay-47367-main-image.jpg);
+}
