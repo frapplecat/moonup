@@ -16,11 +16,11 @@ body {
     height: 240px;
 }
 
+
 #moonup-logo {
     float: left;
     width: 35%;
     margin-left: 25px;
-    display: block;
 }
 
 nav a {
@@ -52,7 +52,6 @@ nav a:hover {
     width: 100%;
     overflow: hidden;
     position: relative;
-
 }
 
 #hero-image {
@@ -78,8 +77,6 @@ nav a:hover {
     font-size: 200%;
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
-    
-    
 
     width: 400px;
     height: 250px;
@@ -158,8 +155,39 @@ nav a:hover {
     color: #fff;
 }
 
+#moon-shots {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+}
+
+#moon-shots > img {
+    width: 100%;
+}
+
 #moon-watch {
     height: 1200px;
+    background: url(../images/Nasa-Moon-Detaill.jpg) no-repeat center center;
+    position: relative;
+}
+
+#moon-watch-text {
+    font-size: 200%;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+
+    width: 800px;
+    height: 600px;
+
+    padding: 30px;
+
+    background-color: rgb(250, 200, 5, .7);
+
+    top: 150px;
+    left: 250px;
+
+    position: absolute;
 }
 
 .sign-up-section {
@@ -224,7 +252,7 @@ footer {
     text-align: center;
 }
 
-.social-networks > li {
+.social-networks>li {
     display: inline;
     margin-right: 75px;
 }
@@ -237,5 +265,5 @@ footer {
 }
 
 .social-networks i:hover {
-   color: rgb(250, 200, 5);
+    color: rgb(250, 200, 5);
 }
