@@ -121,7 +121,11 @@ nav a:hover {
     text-align: center;
     text-transform: uppercase;
     font-size: 200%;
-    line-height: 75px;
+    line-height: 125px;
+}
+
+#about-us p {
+    margin: 0 auto;
 }
 
 #moon-phase {
@@ -131,7 +135,15 @@ nav a:hover {
 #moon-phase-widget {
     height: 300px;
     text-align: center;
-    margin-top: 95px;
+    margin-top: 50px;
+}
+
+#moon-phase h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 200%;
+    line-height: 125px;
+    color: #fff;
 }
 
 footer {
