@@ -113,65 +113,19 @@ nav a:hover {
     padding-top: 35px;
 }
 
-.about-left {
-    float: left;
+.about-us-info {
+    ;
 }
-#circle-container-left {
-    width: 600px;
+
+#moon-phase {
+    background-color: #3a3a3a;
+}
+
+#moon-phase-widget {
     height: 300px;
-    padding: 30px;
-    border: 1px solid #ccc;
-    margin: 0 auto;
-}
-
-#circle-cover-bg-left {
-    height: 100%;
-    background: url(../images/pexels-pixabay-47367-main-image.jpg) no-repeat center center;
-}
-
-#about-right {
-    float: right;
-}
-
-#circle-container-right {
-    width: 300px;
-    height: 300px;
-    padding: 30px;
-    border: 1px solid #ccc;
-    border-radius: 50%;
-    margin: 0 auto;
-}
-
-#circle-cover-bg-right {
-    height: 100%;
-    border-radius: 50%;
-    background: url(../images/pexels-pixabay-47367-main-image.jpg) no-repeat center center;
-}
-
-#circle-container-center {
-    width: 300px;
-    height: 300px;
-    padding: 30px;
-    border: 1px solid #ccc;
-    border-radius: 50%;
-    margin: 0 auto;
-}
-
-#circle-cover-bg-center {
-    height: 100%;
-    border-radius: 50%;
-    background: url(../images/pexels-pixabay-47367-main-image.jpg) no-repeat center center;
-}
-
-
-#moon-phases {
-    height: 600px;
-    text-transform: uppercase;
     text-align: center;
-    font-size: 200%;
-    padding-top: 35px;
+    margin-top: 95px;
 }
-
 
 footer {
     height: 150px;
@@ -184,10 +138,11 @@ footer {
 
 .social-networks > li {
     display: inline;
+    margin-right: 75px;
 }
 
 .social-networks i {
-    font-size: 160%;
+    font-size: 200%;
     margin: 1%;
     padding: 1%;
     color: #fff;
