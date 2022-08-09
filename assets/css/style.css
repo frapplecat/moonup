@@ -112,3 +112,29 @@ nav a:hover {
     font-size: 200%;
     padding-top: 35px;
 }
+
+.about-left {
+    float: left;
+}
+#circle-container-left {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#circle-cover-bg-left {
+    height: 100%;
+    border-radius: 50%;
+    background: url(../images/pexels-pixabay-47367-main-image.jpg) no-repeat center center;
+}
+
+#moon-phases {
+    height: 600px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 200%;
+    padding-top: 35px;
+}
