@@ -117,6 +117,23 @@ nav a:hover {
     float: left;
 }
 #circle-container-left {
+    width: 600px;
+    height: 300px;
+    padding: 30px;
+    border: 1px solid #ccc;
+    margin: 0 auto;
+}
+
+#circle-cover-bg-left {
+    height: 100%;
+    background: url(../images/pexels-pixabay-47367-main-image.jpg) no-repeat center center;
+}
+
+#about-right {
+    float: right;
+}
+
+#circle-container-right {
     width: 300px;
     height: 300px;
     padding: 30px;
@@ -125,11 +142,27 @@ nav a:hover {
     margin: 0 auto;
 }
 
-#circle-cover-bg-left {
+#circle-cover-bg-right {
     height: 100%;
     border-radius: 50%;
     background: url(../images/pexels-pixabay-47367-main-image.jpg) no-repeat center center;
 }
+
+#circle-container-center {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#circle-cover-bg-center {
+    height: 100%;
+    border-radius: 50%;
+    background: url(../images/pexels-pixabay-47367-main-image.jpg) no-repeat center center;
+}
+
 
 #moon-phases {
     height: 600px;
@@ -137,4 +170,29 @@ nav a:hover {
     text-align: center;
     font-size: 200%;
     padding-top: 35px;
+}
+
+
+footer {
+    height: 150px;
+    background-color: #3a3a3a;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 1%;
+    color: #fff;
+}
+
+.social-networks i:hover {
+   color: rgb(250, 200, 5);
 }
