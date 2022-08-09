@@ -106,15 +106,22 @@ nav a:hover {
 
 #about-us {
     height: 600px;
+    width: 100%;
     background-color: rgb(250, 200, 5);
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 200%;
-    padding-top: 35px;
 }
 
-.about-us-info {
-    ;
+#about-us div {
+    float: left;
+    width: 33%;
+    text-align: center;
+
+}
+
+#about-us h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 200%;
+    line-height: 75px;
 }
 
 #moon-phase {
