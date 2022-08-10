@@ -175,6 +175,7 @@ nav a:hover {
 #moon-watch-text {
     font-size: 200%;
     font-family: 'Roboto', sans-serif;
+    font-weight: 500;
     text-transform: uppercase;
 
     width: 800px;
@@ -190,14 +191,27 @@ nav a:hover {
     position: absolute;
 }
 
-#moon-watch > img {
-    width: 500px;
-    height: 300px;
+#moon-watch-text > img {
+    width: 300px;
+    height: 175px;
     position: absolute;
-    bottom: 450px;
-    right: 850px;
+    bottom: 15px;
+    left: 15px;
 }
 
+#moon-watch-text > a {
+    text-decoration: none;
+    color: #3a3a3a;
+    display: block;
+    position: absolute;
+    bottom: 15px;
+    right: 25px;
+}
+
+#moon-watch-text > a:hover {
+    color: #fff;
+    
+}
 
 .sign-up-section {
     clear: left;
