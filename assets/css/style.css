@@ -106,6 +106,7 @@ nav a:hover {
     height: 600px;
     width: 100%;
     background-color: rgb(250, 200, 5);
+    color: #3a3a3a;
 }
 
 #about-us div {
@@ -119,7 +120,7 @@ nav a:hover {
     text-align: center;
     text-transform: uppercase;
     font-size: 250%;
-    line-height: 125px;
+    line-height: 75px;
 }
 
 #about-us h2 {
@@ -137,6 +138,19 @@ nav a:hover {
     padding: 0 30px;
     margin: 0 30px;
 }
+
+#about-us h1 i {
+    font-size: 250%;
+    color: #fff;
+    margin-top: 30px;
+}
+
+#about-us i {
+    font-size: 400%;
+    color: #fff;
+    margin-top: 30px;
+}
+
 
 #moon-phase {
     background-color: #3a3a3a;
