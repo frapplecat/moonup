@@ -9,12 +9,12 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
+    background-color: black;
 }
 
 #header {
     background-color: black;
     height: 240px;
-    position: ;
 }
 
 
