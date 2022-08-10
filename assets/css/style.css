@@ -30,7 +30,6 @@ nav a {
     color: #fff;
     text-transform: uppercase;
     margin-right: 75px;
-    margin-left: 25px;
     text-decoration: none;
     line-height: 240px;
 }
@@ -190,6 +189,15 @@ nav a:hover {
 
     position: absolute;
 }
+
+#moon-watch > img {
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    bottom: 450px;
+    right: 850px;
+}
+
 
 .sign-up-section {
     clear: left;
