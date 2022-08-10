@@ -14,6 +14,7 @@ body {
 #header {
     background-color: black;
     height: 240px;
+    position: ;
 }
 
 
@@ -78,7 +79,7 @@ nav a:hover {
     text-transform: uppercase;
 
     width: 400px;
-    height: 250px;
+    height: 200px;
 
     padding: 30px;
 
@@ -162,7 +163,7 @@ nav a:hover {
     background-color: black;
 }
 
-#moon-shots > img {
+#moon-shots>img {
     width: 100%;
 }
 
@@ -191,7 +192,7 @@ nav a:hover {
     position: absolute;
 }
 
-#moon-watch-text > img {
+#moon-watch-text>img {
     width: 300px;
     height: 175px;
     position: absolute;
@@ -199,7 +200,7 @@ nav a:hover {
     left: 15px;
 }
 
-#moon-watch-text > a {
+#moon-watch-text>a {
     text-decoration: none;
     color: #3a3a3a;
     display: block;
@@ -208,9 +209,9 @@ nav a:hover {
     right: 25px;
 }
 
-#moon-watch-text > a:hover {
+#moon-watch-text>a:hover {
     color: #fff;
-    
+
 }
 
 .sign-up-section {
@@ -224,7 +225,7 @@ nav a:hover {
 .signup-form {
     margin: 150px 10% 0 0;
     color: #fff;
-    background-color: rgb(250, 200, 5, .7);
+    background-color: #3a3a3a;
     max-width: 400px;
     position: absolute;
     left: 10%;
@@ -256,6 +257,7 @@ nav a:hover {
     padding: 15px 32px 15px 32px;
     text-align: center;
     font-size: 100%;
+    border: 1px solid white;
     background-color: #3a3a3a;
     color: #fff;
     display: block;
