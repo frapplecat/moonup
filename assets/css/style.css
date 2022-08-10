@@ -160,6 +160,7 @@ nav a:hover {
     line-height: 0;
     column-count: 4;
     column-gap: 0;
+    background-color: black;
 }
 
 #moon-shots > img {
