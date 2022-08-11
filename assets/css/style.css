@@ -85,6 +85,7 @@ nav a:hover {
     text-align: center;
     align-items: center;
     justify-content: center;
+    display: inline-flex;
     width: 450px;
     height: 450px;
     border-radius: 50%;
@@ -95,8 +96,9 @@ nav a:hover {
 }
 
 #cover-text a {
-    color: black;
+    color: #3a3a3a;
     text-decoration: none;
+    font-size: 50%;
 }
 
 #cover-text a:hover {
@@ -217,7 +219,7 @@ nav a:hover {
     position: absolute;
     width: 50%;
     top: 50px;
-    left: 50px;  
+    left: 50px;
 }
 
 #moon-watch-text img {
@@ -379,6 +381,22 @@ footer {
     #moon-shots {
         column-count: 3;
     }
+
+    #moon-watch-text {
+        width: 50%;
+        height: 600px;
+        font-size: 95%;
+        line-height: 30px;
+
+    }
+
+    #moon-watch-text img {
+        top: 400px;
+    }
+
+    .social-networks {
+        padding-top: 25px;
+    }
 }
 
 @media screen and (max-width: 1000px) {
@@ -395,14 +413,8 @@ footer {
     #moon-shots {
         column-count: 1;
     }
-    #moon-watch-text {
-        width: 50%;
-        height: 600px;
-        font-size: 90%;
 
+    nav {
+        text-align: left;
+    }
 }
-
-
-
-
-
