@@ -22,6 +22,8 @@ body {
     float: left;
     width: 10%;
     margin-left: 25px;
+    min-width: 200px;
+    max-width: 200px;
 }
 
 nav a {
