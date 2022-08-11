@@ -61,6 +61,7 @@ nav a:hover {
     height: 1100px;
     width: 100%;
     background: url(../images/pexels-pixabay-47367-main-image.jpg) no-repeat center center;
+    background-size: cover;
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
@@ -185,6 +186,7 @@ nav a:hover {
 #moon-watch {
     height: 1200px;
     background: url(../images/Nasa-Moon-Detaill.jpg) no-repeat center center;
+    background-size: cover;
     position: relative;
     background-color: #3a3a3a;
 }
@@ -250,10 +252,8 @@ nav a:hover {
 }
 
 .sign-up-section {
-    clear: left;
-    background: url(../images/Rocket-illustration.jpg);
+    background: url(../images/Rocket-illustration.jpg) no-repeat center center;
     background-size: cover;
-    background-position: center;
     height: 1200px;
 }
 
@@ -341,5 +341,42 @@ footer {
 .social-networks i:hover {
     color: rgb(250, 200, 5);
 }
+
+
+
+@media screen and (max-width: 2000px) {
+
+    #about-us {
+        height: 850px;
+        width: 100%;
+        background-color: rgb(250, 200, 5);
+        color: #3a3a3a;
+    }
+
+}
+
+
+
+/* media queries */
+
+/* for larger to medium screens from 1200px and down */
+
+@media screen and (max-width: 1200px) {
+
+    #about-us div {
+        width: 100%;
+        text-align: center;
+        display: block;
+        height: 350px;
+        background-color: rgb(250, 200, 5);
+    }
+
+}
+
+
+
+
+
+
 
 
