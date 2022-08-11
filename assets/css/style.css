@@ -395,6 +395,11 @@ footer {
     #moon-shots {
         column-count: 1;
     }
+    #moon-watch-text {
+        width: 50%;
+        height: 600px;
+        font-size: 90%;
+
 }
 
 
