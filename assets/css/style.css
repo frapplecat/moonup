@@ -80,6 +80,8 @@ nav a:hover {
     color: #3a3a3a;
     text-transform: uppercase;
     text-align: center;
+    align-items: center;
+    justify-content: center;
     width: 450px;
     height: 450px;
     border-radius: 50%;
@@ -235,6 +237,14 @@ nav a:hover {
 #moon-watch-text>a:hover {
     color: #fff;
 
+}
+
+#moon-watch-text p a {
+    color: #3a3a3a;
+}
+
+#moon-watch-text p a:hover {
+    color: #fff;
 }
 
 .sign-up-section {
