@@ -1,55 +1,123 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap');
 
+
+h2 {
+    vertical-align: center;
+    text-align: center;
+}
+
+html,
+body {
+    margin: 0;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    border: none;
+    border: 0;
+
+    /* menu navigation */
 }
 
-body {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+.top-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
     background-color: #3a3a3a;
+    color: #FFF;
+    height: 70px;
+    padding: 1em;
 }
 
-#header {
-    background-color: #3a3a3a;
-    height: 75px;
-}
-
-
-#moonup-logo {
-    float: left;
-    width: 10%;
-    margin-left: 25px;
-    min-width: 200px;
-    max-width: 200px;
-}
-
-nav a {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 150%;
-    color: #fff;
+.menu {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     text-transform: uppercase;
-    margin-right: 75px;
+    font-size: 120%;
+    z-index: 1;
+}
+
+.menu>li {
+    margin: 0 1rem;
+    overflow: hidden;
+    padding-right: 30px;
+}
+
+.menu>li>a {
     text-decoration: none;
-    line-height: 75px;
+    color: #fff;
 }
 
-#menu {
-    float: right;
-}
-
-nav a:hover {
-    color: rgb(250, 200, 5)
-}
-
-.active {
+.menu>li>a:hover {
     color: rgb(250, 200, 5);
 }
 
-#hero-outer {
+.top-nav>div>a>img {
+    width: 80%;
+    height: 90px;
+    padding-top: 5px;
+}
+
+.menu-button-container {
+    display: none;
+    height: 100%;
+    width: 30px;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu-toggle {
+    display: none;
+}
+
+.menu-button,
+.menu-button::before,
+.menu-button::after {
+    display: block;
+    background-color: #fff;
+    position: absolute;
+    height: 4px;
+    width: 30px;
+    transition: transform 400ms cubic-bezier(0.5, 1, 0.32, 1);
+    border-radius: 2px;
+}
+
+.menu-button::before {
+    content: '';
+    margin-top: -8px;
+}
+
+.menu-button::after {
+    content: '';
+    margin-top: 8px;
+}
+
+#menu-toggle:checked+.menu-button-container .menu-button::before {
+    margin-top: 0px;
+    transform: rotate(405deg);
+}
+
+#menu-toggle:checked+.menu-button-container .menu-button {
+    background: #3a3a3a;
+}
+
+#menu-toggle:checked+.menu-button-container .menu-button::after {
+    margin-top: 0px;
+    transform: rotate(-405deg);
+}
+
+/* main image homepage */
+
+.homepage-moon-box {
     height: 1100px;
     width: 100%;
     overflow: hidden;
@@ -57,17 +125,17 @@ nav a:hover {
     background-color: black;
 }
 
-#hero-image {
+.homepage-moon {
     height: 1100px;
     width: 100%;
-    background: url(../images/pexels-pixabay-47367-main-image.jpg) no-repeat center center;
+    background: url(../images/Moon-up-Homepage-Main-pexels.jpg) no-repeat center center;
     background-size: cover;
-    animation-name: hero-zoom;
+    animation-name: moon-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
 
-@keyframes hero-zoom {
+@keyframes moon-zoom {
     from {
         transform: scale(1);
     }
@@ -77,103 +145,415 @@ nav a:hover {
     }
 }
 
-#cover-text {
-    font-size: 250%;
+.homepage-moon-circle {
+    font-size: 300%;
     font-family: 'Roboto', sans-serif;
     color: #3a3a3a;
     text-transform: uppercase;
+    padding: 15px;
     text-align: center;
     align-items: center;
     justify-content: center;
-    display: inline-flex;
-    width: 450px;
-    height: 450px;
+    display: flex;
+    width: 550px;
+    height: 550px;
     border-radius: 50%;
     background-color: rgb(250, 200, 5, .7);
-    top: 225px;
-    right: 150px;
+    top: 25%;
+    left: 0;
+    right: 0;
+    margin: auto;
     position: absolute;
 }
 
-#cover-text a {
+.homepage-moon-circle>h1>a {
     color: #3a3a3a;
     text-decoration: none;
     font-size: 50%;
 }
 
-#cover-text a:hover {
+.homepage-moon-circle>h1>a:hover {
     color: #fff;
 }
 
-#about-us {
-    height: 600px;
+/* about us wrapper */
+.wrapper {
+    padding: 30px 30px 100px;
     width: 100%;
     background-color: rgb(250, 200, 5);
+    font-size: 'Roboto', san-serif;
+    text-align: center;
+}
+
+.wrapper>h1 {
     color: #3a3a3a;
-}
-
-#about-us div {
-    float: left;
-    width: 33%;
-    text-align: center;
-
-}
-
-#about-us h1 {
-    text-align: center;
     text-transform: uppercase;
     font-size: 250%;
     line-height: 75px;
 }
 
-#about-us h2 {
+.wrapper>h1>i {
+    font-size: 250%;
+    color: #fff;
+    margin-top: 30px;
+}
+
+.columns {
+    display: flex;
+    margin: 0 -15px;
+    flex-wrap: wrap;
+}
+
+.col {
+    margin: 0 15px 30px;
+    padding: 20px;
+}
+
+.col-33 {
+    width: calc(33.33% - 30px)
+}
+
+.col-33>i {
+    font-size: 400%;
+    color: #fff;
+    margin-top: 30px;
+}
+
+.col-33>h2 {
     text-transform: uppercase;
     font-weight: 500;
     font-size: 200%;
     line-height: 75px;
+    color: #3a3a3a;
 }
 
 
-#about-us p {
+.col-33>p {
     font-family: 'Roboto', sans-serif;
+    color: #3a3a3a;
     font-weight: 300;
     font-size: 150%;
     padding: 0 30px;
     margin: 0 30px;
 }
 
-#about-us h1 i {
-    font-size: 250%;
-    color: #fff;
-    margin-top: 30px;
+.col-33>p>a {
+    text-decoration: none;
+    color: #3a3a3a;
 }
 
-#about-us i {
-    font-size: 400%;
+.col-33>p>a:hover {
     color: #fff;
-    margin-top: 30px;
 }
 
+/* info blocks */
 
-#moon-phase {
+.info-wrapper {
+    padding: 30px 30px 100px;
+    width: 100%;
     background-color: #3a3a3a;
+    font-size: 'Roboto', san-serif;
+    text-align: center;
+    background: url(../images/pexels-chuck-johnson-6369354.jpg) no-repeat center center;
+    background-size: cover;
+
 }
 
-#moon-phase-widget {
-    height: 300px;
-    text-align: center;
-    margin-top: 50px;
-}
-
-#moon-phase h2 {
-    text-align: center;
+.info-wrapper>h1 {
+    color: rgb(250, 200, 5);
     text-transform: uppercase;
+    font-size: 250%;
+    line-height: 75px;
+}
+
+.info-wrapper>h1>i {
+    font-size: 250%;
+    color: rgb(250, 200, 5);
+    margin-top: 30px;
+}
+
+.info-blocks {
+    display: flex;
+    margin: 0 -15px;
+    flex-wrap: wrap;
+}
+
+.block {
+    margin: 0 15px 30px;
+    padding: 20px;
+    background-color: rgba(43, 43, 42, 0.7);
+    border-radius: 6px;
+}
+
+.block-nb {
+    margin: 0 15px 30px;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+.block-33 {
+    width: calc(33.33% - 30px)
+}
+
+.block-33>i {
+    font-size: 400%;
+    color: rgb(250, 200, 5);
+    margin-top: 30px;
+}
+
+.block-33>h2 {
+    text-transform: uppercase;
+    font-weight: 500;
     font-size: 200%;
-    line-height: 125px;
+    line-height: 75px;
+    color: rgb(250, 200, 5);
+}
+
+.block-33>h3 {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 150%;
+    line-height: 30px;
+    color: #fff
+}
+
+
+.block-33>p {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(250, 200, 5);
+    font-weight: 300;
+    font-size: 150%;
+    padding: 0 30px;
+    margin: 0 30px;
+}
+
+.block-100 {
+    width: calc(100% - 30px)
+}
+
+.block-100>h1>i {
+    font-size: 400%;
+    color: rgb(250, 200, 5);
+    margin-top: 30px;
+}
+
+.block-100>h1 {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 200%;
+    line-height: 75px;
+    color: rgb(250, 200, 5);
+}
+.block-100>img {
+    width: 60%;
+}
+.block-100>h2 {
+    font-weight: 500;
+    font-size: 150%;
+    line-height: 35px;
     color: #fff;
 }
 
-#moon-shots {
+.block-100>h2>a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.block-100>h2>a:hover {
+    color: rgb(250, 200, 5);
+}
+
+.block-100>p {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-weight: 300;
+    font-size: 150%;
+    padding: 0 30px;
+    margin: 0 30px;
+}
+
+/* moon-watch info blocks */
+
+
+.mw-info-wrapper {
+    padding: 30px 30px 100px;
+    width: 100%;
+    height: 1100px;
+    background-color: #3a3a3a;
+    font-size: 'Roboto', san-serif;
+    text-align: center;
+    background: url(../images/Nasa-Moon-Detail.jpg) no-repeat center center;
+    background-size: cover;
+
+}
+
+.mw-info-wrapper-bkg {
+    padding: 30px 30px 100px;
+    width: 100%;
+    background-color: #3a3a3a;
+    font-size: 'Roboto', san-serif;
+    text-align: center;
+
+}
+
+.mw-info-wrapper-bky {
+    padding: 30px 30px 100px;
+    width: 100%;
+    background-color: rgb(250, 200, 5);
+    font-size: 'Roboto', san-serif;
+    text-align: center;
+
+}
+
+.mw-info-wrapper>h1 {
+    color: rgb(250, 200, 5);
+    text-transform: uppercase;
+    font-size: 250%;
+    line-height: 75px;
+}
+
+.mw-info-wrapper>h1>i {
+    font-size: 250%;
+    color: rgb(250, 200, 5);
+    margin-top: 30px;
+}
+
+.mw-info-wrapper-bkg>h2 {
+    color: rgb(250, 200, 5);
+    text-transform: uppercase;
+    font-size: 250%;
+    line-height: 75px;
+}
+
+.mw-info-wrapper-bkg>i {
+    font-size: 250%;
+    color: rgb(250, 200, 5);
+    margin-top: 30px;
+}
+
+.mw-info-blocks {
+    display: flex;
+    margin: 0 -15px;
+    flex-wrap: wrap;
+}
+
+.mw-block {
+    margin: 0 15px 30px;
+    padding: 20px;
+    background-color: rgba(43, 43, 42, 0.7);
+    border-radius: 6px;
+}
+
+.mw-block-nb {
+    margin: 0 15px 30px;
+    padding: 20px;
+}
+
+.mw-block-33 {
+    width: calc(33.33% - 30px)
+}
+
+.mw-block-50 {
+    width: calc(50% - 30px)
+}
+
+.mw-block-33>i {
+    font-size: 400%;
+    color: rgb(250, 200, 5);
+    margin-top: 30px;
+}
+
+.mw-block-33>h2 {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 150%;
+    line-height: 75px;
+    color: rgb(250, 200, 5);
+}
+
+.mw-block-33>h2>i {
+    font-size: 400%;
+    color: rgb(250, 200, 5);
+    margin-top: 30px;
+}
+
+.mw-block-33>h3 {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 150%;
+    line-height: 30px;
+    color: #fff
+}
+
+
+.mw-block-33>p {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-weight: 300;
+    font-size: 150%;
+    padding: 0 30px 60px;
+    margin: 0 30px;
+}
+
+.mw-block-33>p>a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.mw-block-33>p>a:hover {
+    color: rgb(250, 200, 5);
+
+}
+
+.mw-block-100 {
+    width: calc(100% - 30px)
+}
+
+.mw-block-100>h1>i {
+    font-size: 400%;
+    color: rgb(250, 200, 5);
+    margin-top: 30px;
+}
+
+.mw-block-100>h1 {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 200%;
+    line-height: 75px;
+    color: rgb(250, 200, 5);
+}
+
+
+.mw-block-100>p {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-weight: 300;
+    font-size: 150%;
+    padding: 0 30px;
+    margin: 0 30px;
+}
+
+.lunar-calendar {
+    height: 400px;
+    color: #fff;
+}
+
+table {
+    width: 100%;
+    border: 1px solid #3a3a3a80;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid rgb(250, 200, 5);
+    width: 16%;
+    text-align: center;
+    background-color: #3a3a3a95;
+}
+
+/* moon-shots page */
+.moon-shots {
     clear: both;
     line-height: 0;
     column-count: 4;
@@ -181,143 +561,12 @@ nav a:hover {
     background-color: black;
 }
 
-#moon-shots>img {
+.moon-shots>img {
     width: 100%;
 }
 
-#moon-watch {
-    height: 1200px;
-    background: url(../images/Nasa-Moon-Detaill.jpg) no-repeat center center;
-    background-size: cover;
-    position: relative;
-    background-color: #3a3a3a;
-}
 
-
-#moon-watch-text {
-    font-size: 200%;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    text-transform: uppercase;
-    line-height: 50px;
-    color: #3a3a3a;
-
-    width: 800px;
-    height: 600px;
-
-    padding: 30px;
-
-    background-color: rgb(250, 200, 5, .7);
-
-    top: 300px;
-    right: 150px;
-
-    position: absolute;
-}
-
-#moon-watch img {
-    position: absolute;
-    width: 50%;
-    top: 50px;
-    left: 50px;
-}
-
-#moon-watch-text img {
-    width: 300px;
-    height: 175px;
-    position: absolute;
-    top: 460px;
-    left: 30px;
-
-}
-
-#moon-watch-text>a {
-    text-decoration: none;
-    color: #3a3a3a;
-    display: block;
-    position: absolute;
-    bottom: 15px;
-    right: 25px;
-}
-
-#moon-watch-text>a:hover {
-    color: #fff;
-
-}
-
-#moon-watch-text p a {
-    color: #3a3a3a;
-}
-
-#moon-watch-text p a:hover {
-    color: #fff;
-}
-
-.sign-up-section {
-    background: url(../images/Rocket-illustration.jpg) no-repeat center center;
-    background-size: cover;
-    height: 1200px;
-}
-
-.signup-form {
-    margin: 150px 10% 0 0;
-    color: #fff;
-    background-color: #3a3a3a;
-    max-width: 700px;
-    position: absolute;
-    left: 28%;
-    padding: 30px;
-}
-
-.signup-form>h2 {
-    color: #fafafa;
-    margin-bottom: 20px;
-}
-
-.text-input {
-    background: transparent;
-    color: #fafafa;
-    width: 100%;
-    height: 25px;
-    margin: 5px 0 20px;
-    border: 1px solid #fafafa;
-    border-radius: 2px;
-}
-
-.text-input:hover {
-    border-color: rgb(250, 200, 5);
-}
-
-.join-button {
-    margin-top: 20px;
-    border-radius: 2px;
-    width: 100%;
-    padding: 15px;
-    text-align: center;
-    font-size: 100%;
-    border: 1px solid white;
-    background-color: #3a3a3a;
-    color: #fff;
-    display: block;
-}
-
-.join-button:hover {
-    background-color: rgb(250, 200, 5);
-    color: black;
-}
-
-.myfile {
-    margin-top: 8px;
-    border-radius: 2px;
-    width: 100%;
-    text-align: center;
-    font-size: 100%;
-    border: 1px solid white;
-    background-color: #3a3a3a;
-    color: #fff;
-    display: block;
-}
-
+/* footer */
 
 footer {
     height: 150px;
@@ -344,77 +593,377 @@ footer {
     color: rgb(250, 200, 5);
 }
 
-/* media queries */
+/* contact us window */
+
+.contactus {
+    background: url(../images/pexels-chuck-johnson-6369354.jpg) no-repeat center center;
+    width: 100%;
+    height: 100vh;
+    background-position: cover;
+    font-family: 'Roboto', sans-serif;
+}
+
+.send-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    font-size: 100%;
+    border: 2px solid white;
+    color: #fff;
+    display: block;
+    background: transparent;
+}
+
+.send-button:hover {
+    background-color: rgb(250, 200, 5);
+    color: black;
+}
+
+.contactus-message {
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 2px;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 100%;
+    text-align: center;
+    width: 740px;
+}
+
+/* sign-up section */
+
+.sign-up-section {
+    background: url(../images/pexels-pixabay-73872.jpg) no-repeat center center;
+    background-size: cover;
+    height: 1200px;
+    position: relative;
+}
+
+.signup-form {
+    color: #fff;
+    background-color: #3a3a3a95;
+    border-radius: 6px;
+    text-align: center;
+    max-width: 800px;
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.signup-form>i {
+    color: #fafafa;
+    font-size: 300%;
+}
+
+.signup-form>h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px;
+    border: 2px solid #fafafa;
+    border-radius: 2px;
+}
+
+.text-input:hover {
+    border-color: rgb(250, 200, 5);
+}
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    font-size: 100%;
+    border: 2px solid white;
+    color: #fff;
+    display: block;
+    background: transparent;
+}
+
+.join-button:hover {
+    background-color: rgb(250, 200, 5);
+    color: black;
+}
+
+.myfile {
+    margin-top: 8px;
+    padding: 12px 36%;
+    border-radius: 2px;
+    width: 100%;
+    text-align: center;
+    font-size: 100%;
+    border: 2px solid white;
+    color: #fff;
+    display: block;
+}
+
+.myfile:hover {
+    border-color: rgb(250, 200, 5);
+}
 
 
-@media screen and (max-width: 2000px) {
+/* hamburger button media query */
 
-    #about-us {
-        height: 850px;
-        width: 100%;
-        background-color: rgb(250, 200, 5);
-        color: #3a3a3a;
+@media (max-width: 1200px) {
+    .menu-button-container {
+        display: flex;
     }
+
+    .menu {
+        position: absolute;
+        top: 0;
+        margin-top: 70px;
+        left: 0;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #menu-toggle~.menu li {
+        height: 0;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    }
+
+    #menu-toggle:checked~.menu li {
+        border: 1px solid #333;
+        height: 2.5em;
+        padding: 0.5em;
+        transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    }
+
+    .menu>li {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 0.5em 0;
+        width: 100%;
+        color: white;
+        background-color: #3a3a3a;
+    }
+
+    .menu>li:not(:last-child) {
+        border-bottom: 1px solid #444;
+    }
+
+    .moon-shots {
+        column-count: 3;
+    }
+}
+
+
+/* circle heading queries */
+
+@media screen and (max-width: 600px) {
+    .homepage-moon-circle {
+        font-size: 250%;
+        width: 450px;
+        height: 450px;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    .homepage-moon-circle {
+        font-size: 225%;
+        width: 400px;
+        height: 400px;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    .homepage-moon-circle {
+        font-size: 200%;
+        width: 350px;
+        height: 350px;
+    }
+
+}
+
+
+/* about us section media queries */
+
+
+@media screen and (max-width: 1500px) {
+    .col-33 {
+        width: 100%;
+        padding: 0 50px;
+
+    }
+
+}
+
+@media screen and (max-width: 1000px) {
+    .col-33 {
+        width: 100%;
+        padding: 0 10px;
+
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+.col-33 {
+    width: 100%;
+    padding: 0 10px;
+}
+
+    .col-33>p{
+        width: 100%;
+        padding: 0 5px 0;
+        font-size: 130%;
+        text-align: center;
+        margin-left: 0;
+    }
+
+
+.block-100>h2 {
+    font-size: 100%;
+    line-height: 35px;
+}
+
+}
+
+@media screen and (max-width: 400px) {
+
+    .col-33>h2 {
+    font-size: 150%;
+  }
+}
+/* info-blocks section media queries */
+
+
+@media screen and (max-width: 1500px) {
+    .block-33 {
+        width: 100%;
+        padding: 0 50px 30px;
+
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+    .block-33 {
+        width: 100%;
+        padding: 0 10px 30px;
+
+    }
+
+}
+
+/* moon watch section media queries */
+
+
+@media screen and (max-width: 1500px) {
+    .mw-block-33 {
+        width: 100%;
+        padding: 0 50px 30px;
+
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+    .mw-block-33 {
+        width: 100%;
+        padding: 0 1px 30px;
+
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .mw-block-33>p {
+        width: 100%;
+        padding: 0 5px 30px;
+        font-size: 130%;
+        text-align: center;
+        margin-left: 0;
+
+    }
+
+    .block-100>h2 {
+        width: 100%;
+        padding: 0 5px 30px;
+        font-size: 130%;
+        text-align: center;
+        margin-left: 0;
+
+    }
+
+
 
 }
 
 
 @media screen and (max-width: 1200px) {
-
-    #about-us div {
+    .mw-block-50 {
         width: 100%;
-        text-align: center;
-        display: block;
-        height: 350px;
-        background-color: rgb(250, 200, 5);
-    }
-
-    #moonup-logo {
-        float: none;
-        text-align: center;
-        width: 10%;
-        margin-left: 25px;
-        min-width: 200px;
-        max-width: 200px;
-    }
-
-    #moon-shots {
-        column-count: 3;
-    }
-
-    #moon-watch-text {
-        width: 50%;
-        height: 600px;
-        font-size: 95%;
-        line-height: 30px;
+        padding: 0 10px 30px;
 
     }
 
-    #moon-watch-text img {
-        top: 400px;
+}
+
+/* footer media query */
+
+@media screen and (max-width: 600px) {
+
+    footer {
+        height: 325px;
+        background-color: #3a3a3a;
     }
 
     .social-networks {
-        padding-top: 25px;
+        text-align: center;
     }
+
+    .social-networks>li {
+        display: block;
+        margin: auto;
+    }
+
+    .social-networks i {
+        font-size: 200%;
+        margin: 1%;
+        padding: 10px;
+        color: #fff;
+    }
+
+    .social-networks i:hover {
+        color: rgb(250, 200, 5);
+    }
+
 }
 
-@media screen and (max-width: 1000px) {
+/* moon-shots media query */
 
-
-    #moon-shots {
+@media screen and (max-width: 800px) {
+    .moon-shots {
         column-count: 2;
     }
 }
 
-@media screen and (max-width: 800px) {
 
-
-    #moon-shots {
+@media screen and (max-width: 500px) {
+    .moon-shots {
         column-count: 1;
-    }
-
-    nav {
-        text-align: left;
     }
 }
