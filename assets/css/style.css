@@ -128,7 +128,7 @@ body {
 .homepage-moon {
     height: 1100px;
     width: 100%;
-    background: url(../images/Moon-up-Homepage-Main-pexels.webp) no-repeat center center;
+    background: url(../images/moon-up-main-image-pexels.webp) no-repeat center center;
     background-size: cover;
     animation-name: moon-zoom;
     animation-duration: 5s;
@@ -254,7 +254,7 @@ body {
     background-color: #3a3a3a;
     font-size: 'Roboto', san-serif;
     text-align: center;
-    background: url(../images/pexels-chuck-johnson-6369354.webp) no-repeat center center;
+    background: url(../images/half-moon-clouds-in-foreground-chuck-johnson.webp) no-repeat center center;
     background-size: cover;
 
 }
@@ -383,7 +383,7 @@ body {
     background-color: #3a3a3a;
     font-size: 'Roboto', san-serif;
     text-align: center;
-    background: url(../images/Nasa-Moon-Detail.webp) no-repeat center center;
+    background: url(../images/detailed-moon-image-nasa.webp) no-repeat center center;
     background-size: cover;
 
 }
@@ -597,7 +597,7 @@ footer {
 /* contact us window */
 
 .contactus {
-    background: url(../images/pexels-chuck-johnson-6369354.jpg) no-repeat center center;
+    background: url(../images/half-moon-clouds-in-foreground-chuck-johnson.webp) no-repeat center center;
     width: 100%;
     height: 100vh;
     background-position: cover;
