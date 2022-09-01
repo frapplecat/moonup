@@ -16,8 +16,13 @@ html,
 body {
     margin: 0;
     height: 100%;
-    font-family: 'Roboto', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+
 }
+
 
 * {
     box-sizing: border-box;
@@ -182,11 +187,11 @@ body {
 }
 
 /* about us wrapper */
+
 .wrapper {
     padding: 30px 30px 100px;
     width: 100%;
     background-color: rgb(250, 200, 5);
-    font-size: 'Roboto', san-serif;
     text-align: center;
 }
 
@@ -234,10 +239,9 @@ body {
 
 
 .col-33>p {
-    font-family: 'Roboto', sans-serif;
     color: #3a3a3a;
     font-weight: 300;
-    font-size: 150%;
+    font-size: 125%;
     padding: 0 30px;
     margin: 0 30px;
 }
@@ -257,7 +261,6 @@ body {
     padding: 30px 30px 100px;
     width: 100%;
     background-color: #3a3a3a;
-    font-size: 'Roboto', san-serif;
     text-align: center;
     background: url(../images/half-moon-clouds-in-foreground-chuck-johnson.webp) no-repeat center center;
     background-size: cover;
@@ -324,7 +327,6 @@ body {
 
 
 .block-33>p {
-    font-family: 'Roboto', sans-serif;
     color: rgb(250, 200, 5);
     font-weight: 300;
     font-size: 150%;
@@ -372,7 +374,6 @@ body {
 }
 
 .block-100>p {
-    font-family: 'Roboto', sans-serif;
     color: #fff;
     font-weight: 300;
     font-size: 150%;
@@ -388,7 +389,6 @@ body {
     width: 100%;
     height: 1100px;
     background-color: #3a3a3a;
-    font-size: 'Roboto', san-serif;
     text-align: center;
     background: url(../images/detailed-moon-image-nasa.webp) no-repeat center center;
     background-size: cover;
@@ -399,16 +399,13 @@ body {
     padding: 30px 30px 100px;
     width: 100%;
     background-color: #3a3a3a;
-    font-size: 'Roboto', san-serif;
     text-align: center;
-
 }
 
 .mw-info-wrapper-bky {
     padding: 30px 30px 100px;
     width: 100%;
     background-color: rgb(250, 200, 5);
-    font-size: 'Roboto', san-serif;
     text-align: center;
 
 }
@@ -473,21 +470,21 @@ body {
 
 .mw-block-33>h2 {
     text-transform: uppercase;
-    font-weight: 500;
-    font-size: 150%;
+    font-weight: 300;
+    font-size: 200%;
     line-height: 75px;
     color: rgb(250, 200, 5);
 }
 
 .mw-block-33>h2>i {
-    font-size: 400%;
+    font-size: 200%;
     color: rgb(250, 200, 5);
     margin-top: 30px;
 }
 
 .mw-block-33>h3 {
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: 300;
     font-size: 150%;
     line-height: 30px;
     color: #fff
@@ -495,10 +492,9 @@ body {
 
 
 .mw-block-33>p {
-    /* font-family: 'Roboto', sans-serif; */
-    color: #fff;
+    color: #fff;    
     font-weight: 300;
-    /* font-size: 150%; */
+    font-size: 125%;
     padding: 0 30px 30px;
     margin: 0 30px;
 }
@@ -533,7 +529,6 @@ body {
 
 
 .mw-block-100>p {
-    font-family: 'Roboto', sans-serif;
     color: #fff;
     font-weight: 300;
     font-size: 150%;
@@ -734,6 +729,10 @@ footer {
     line-height: 100px;
 }
 
+.thankyou-block-100>p {
+    font-size: 125%;
+
+}
 
 /* hamburger button media query */
 
