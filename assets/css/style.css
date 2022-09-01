@@ -68,6 +68,7 @@ body {
 
 .menu>li>a:hover {
     color: rgb(250, 200, 5);
+    font-weight: bold;
 }
 
 .top-nav>div>a>img {
