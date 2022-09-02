@@ -646,6 +646,10 @@ footer {
     position: relative;
 }
 
+.signup-form>p {
+    line-height: 40px;
+}
+
 .signup-form {
     color: #fff;
     background-color: #3a3a3a95;
@@ -683,6 +687,12 @@ footer {
 .text-input:hover {
     border-color: rgb(250, 200, 5);
 }
+
+.radio {
+ padding: 45px;
+ margin-right: 50px;
+}
+
 
 .join-button {
     margin-top: 20px;
