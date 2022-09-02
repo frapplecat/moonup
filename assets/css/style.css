@@ -20,6 +20,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-font-smoothing: antialiased;
     -o-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 
 }
 
@@ -815,8 +816,19 @@ footer {
         height: 350px;
     }
 
-}
+    .homepage-moon-box {
+        height: 700px;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        background-color: black;
+    }
+    
+    .homepage-moon {
+        height: 700px;
 
+}
+}
 
 /* about us section media queries */
 
