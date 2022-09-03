@@ -217,6 +217,11 @@ body {
     line-height: 75px;
 }
 
+.wrapper>div>img {
+    padding: 30px 30px 0;
+    width: 60%;
+    text-align: center;
+}
 .wrapper>h1>i {
     font-size: 250%;
     color: #fff;
@@ -415,6 +420,11 @@ body {
     width: 100%;
     background-color: #3a3a3a;
     text-align: center;
+}
+
+.mw-info-wrapper-bkg>div>img {
+    width: 60%;
+
 }
 
 .mw-info-wrapper-bky {
@@ -820,7 +830,12 @@ footer {
         width: 450px;
         height: 450px;
     }
-
+    .homepage-moon-circle>h1 {
+        font-size: 150%;
+    }
+    .homepage-moon-circle>h2 {
+        font-size: 80%;
+    }
 }
 
 @media screen and (max-width: 500px) {
