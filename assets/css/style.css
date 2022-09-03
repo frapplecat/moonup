@@ -2,14 +2,14 @@
 
 h1 {
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 900;
+    font-weight: bolder;
 }
 
 h2 {
     vertical-align: center;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 500;
+    font-weight: bold;
 }
 
 html,
@@ -159,7 +159,7 @@ body {
 }
 
 .homepage-moon-circle {
-    font-size: 300%;
+    /* font-size: 300%; */
     color: #3a3a3a;
     text-transform: uppercase;
     padding: 15px;
@@ -167,6 +167,7 @@ body {
     align-items: center;
     justify-content: center;
     display: flex;
+    flex-direction: column;
     width: 550px;
     height: 550px;
     border-radius: 50%;
@@ -178,13 +179,25 @@ body {
     position: absolute;
 }
 
-.homepage-moon-circle>h1>a {
+.homepage-moon-circle>h1 {
     color: #3a3a3a;
-    text-decoration: none;
-    font-size: 50%;
+    font-size: 450%;
+    top: 0;
 }
 
-.homepage-moon-circle>h1>a:hover {
+.homepage-moon-circle>h2 {
+    color: #3a3a3a;
+    font-size: 200%;
+    padding-top: 25px;
+}
+
+.homepage-moon-circle>h2>a {
+    color: #3a3a3a;
+    text-decoration: none;
+    /* font-size: 150%; */
+}
+
+.homepage-moon-circle>h2>a:hover {
     color: #fff;
 }
 
