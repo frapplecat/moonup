@@ -576,8 +576,17 @@ th,
 td {
     border: 1px solid rgb(250, 200, 5);
     width: 16%;
+    height: 100px;
     text-align: center;
     background-color: #3a3a3a95;
+}
+
+th {
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 150%;
+    line-height: 30px;
+    color: #fff
 }
 
 /* moon-shots page */
