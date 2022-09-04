@@ -627,8 +627,6 @@ footer {
     background: url(../images/half-moon-clouds-in-foreground-chuck-johnson.webp) no-repeat center center;
     width: 100%;
     height: 100vh;
-    background-position: cover;
-    font-family: 'Roboto', sans-serif;
 }
 
 .send-button {

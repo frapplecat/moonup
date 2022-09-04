@@ -12,8 +12,7 @@ MoonUp is a website created for a small group of amateur astronomers based in Co
 ![Balsamiq mobile wireframe screenshots](readme-images/mobile-wireframe.png)
 
 # Website Features
-I wanted to keep a nice and clean layout. I removed some headings from my original wireframes as I though it looked to busy on the page, especially when I started resizing to mobile screen sizes. I chose a colour scheme that complemented the lunar theme with whites and greys mainly but with a yellow, from the occasional yellow moon, to add a pop of colour and interest. This signature colour could be easily changed to suit any unusual lunar activity throughout the year e.g. when there's a blue or red moon.
-
+I wanted to keep a nice and clean layout. I removed some headings from my original above the fold section wireframes as I thought it looked too busy on the page, especially when I started resizing to mobile screen sizes. I chose a colour scheme that complemented the lunar theme with whites and greys mainly but with a yellow, from the occasional yellow moon, to add a pop of colour and interest. This signature colour could be easily changed to suit any unusual lunar activity throughout the year e.g. when there's a blue or red moon.
 
 ![colour scheme change screenshot1](readme-images/blue-moon-example.png)
 ![colour scheme change screenshot2](readme-images/blood-moon-example.png)
