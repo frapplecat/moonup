@@ -12,8 +12,6 @@ night sky but it deosn't take much to change that mindset. When viewed through a
 a community, build up numbers and get lots of sign-up to the newsletter. Overtime the moon-shots page will contain more pictures from attendees and from the various moon watches
 and over meet-ups.
 
-
-
 # Initial Wireframes
 ![Balsamiq desktop wireframe screenshots](readme-images/desktop-wireframe.png)
 ![Balsamiq mobile wireframe screenshots](readme-images/mobile-wireframe.png)
