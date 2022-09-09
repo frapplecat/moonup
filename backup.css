@@ -226,7 +226,6 @@ body {
     width: 60%;
     text-align: center;
 }
-
 .wrapper>h1>i {
     font-size: 250%;
     color: #fff;
@@ -522,7 +521,7 @@ body {
 
 
 .mw-block-33>p {
-    color: #fff;
+    color: #fff;    
     font-weight: normal;
     font-size: 125%;
     padding: 0 30px 30px;
@@ -724,8 +723,8 @@ footer {
 }
 
 .radio {
-    padding: 45px;
-    margin-right: 50px;
+ padding: 45px;
+ margin-right: 50px;
 }
 
 
@@ -785,33 +784,10 @@ footer {
 
 /* media queries */
 
-/* media queries max-width: 1500px */
 
-@media screen and (max-width: 1500px) {
-    .col-33 {
-        width: 100%;
-        padding: 0 50px;
-
-    }
-
-    .block-33 {
-        width: 100%;
-        padding: 0 50px 30px;
-
-    }
-
-    .mw-block-33 {
-        width: 100%;
-        padding: 0 50px 30px;
-
-    }
-
-}
-
-/* media queries max-width: 1200px */
+/* hamburger button media query */
 
 @media (max-width: 1200px) {
-
     .menu-button-container {
         display: flex;
     }
@@ -859,16 +835,66 @@ footer {
     .moon-shots {
         column-count: 3;
     }
-
-    .mw-block-50 {
-        width: 100%;
-        padding: 0 10px 30px;
-
-    }
 }
 
 
-/* media queries max-width: 1000px */
+/* circle heading queries */
+
+@media screen and (max-width: 600px) {
+    .homepage-moon-circle {
+        font-size: 250%;
+        width: 450px;
+        height: 450px;
+    }
+    .homepage-moon-circle>h1 {
+        font-size: 150%;
+    }
+    .homepage-moon-circle>h2 {
+        font-size: 80%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .homepage-moon-circle {
+        font-size: 225%;
+        width: 400px;
+        height: 400px;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    .homepage-moon-circle {
+        font-size: 200%;
+        width: 350px;
+        height: 350px;
+    }
+
+    .homepage-moon-box {
+        height: 700px;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        background-color: black;
+    }
+    
+    .homepage-moon {
+        height: 700px;
+
+}
+}
+
+/* about us section media queries */
+
+
+@media screen and (max-width: 1500px) {
+    .col-33 {
+        width: 100%;
+        padding: 0 50px;
+
+    }
+
+}
 
 @media screen and (max-width: 1000px) {
     .col-33 {
@@ -879,49 +905,7 @@ footer {
 
 }
 
-
-/* media queries max-width: 800px */
-
-@media screen and (max-width: 800px) {
-    .moon-shots {
-        column-count: 2;
-    }
-}
-
-/* media queries max-width: 700px */
-
-@media screen and (max-width: 700px) {
-    .block-33 {
-        width: 100%;
-        padding: 0 10px 30px;
-
-    }
-
-    .mw-block-33 {
-        width: 100%;
-        padding: 0 1px 30px;
-
-    }
-
-}
-
-
-/* media queries max-width: 600px */
-
 @media screen and (max-width: 600px) {
-    .homepage-moon-circle {
-        font-size: 250%;
-        width: 450px;
-        height: 450px;
-    }
-
-    .homepage-moon-circle>h1 {
-        font-size: 150%;
-    }
-
-    .homepage-moon-circle>h2 {
-        font-size: 80%;
-    }
 
     .col-33 {
         width: 100%;
@@ -942,6 +926,58 @@ footer {
         line-height: 35px;
     }
 
+}
+
+@media screen and (max-width: 400px) {
+
+    .col-33>h2 {
+        font-size: 150%;
+    }
+}
+
+/* info-blocks section media queries */
+
+
+@media screen and (max-width: 1500px) {
+    .block-33 {
+        width: 100%;
+        padding: 0 50px 30px;
+
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+    .block-33 {
+        width: 100%;
+        padding: 0 10px 30px;
+
+    }
+
+}
+
+/* moon watch section media queries */
+
+
+@media screen and (max-width: 1500px) {
+    .mw-block-33 {
+        width: 100%;
+        padding: 0 50px 30px;
+
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+    .mw-block-33 {
+        width: 100%;
+        padding: 0 1px 30px;
+
+    }
+
+}
+
+@media screen and (max-width: 600px) {
     .mw-block-33>p {
         width: 100%;
         padding: 0 5px 30px;
@@ -959,6 +995,24 @@ footer {
         margin-left: 0;
 
     }
+
+
+
+}
+
+
+@media screen and (max-width: 1200px) {
+    .mw-block-50 {
+        width: 100%;
+        padding: 0 10px 30px;
+
+    }
+
+}
+
+/* footer media query */
+
+@media screen and (max-width: 600px) {
 
     footer {
         height: 325px;
@@ -987,47 +1041,17 @@ footer {
 
 }
 
-/* media queries max-width: 500px */
+/* moon-shots media query */
 
-@media screen and (max-width: 500px) {
-    .homepage-moon-circle {
-        font-size: 225%;
-        width: 400px;
-        height: 400px;
-    }
-
+@media screen and (max-width: 800px) {
     .moon-shots {
-        column-count: 1;
+        column-count: 2;
     }
-
 }
 
 
-/* media queries max-width: 400px */
-
-
-@media screen and (max-width: 400px) {
-    .homepage-moon-circle {
-        font-size: 200%;
-        width: 350px;
-        height: 350px;
+@media screen and (max-width: 500px) {
+    .moon-shots {
+        column-count: 1;
     }
-
-    .homepage-moon-box {
-        height: 700px;
-        width: 100%;
-        overflow: hidden;
-        position: relative;
-        background-color: black;
-    }
-
-    .homepage-moon {
-        height: 700px;
-
-    }
-
-    .col-33>h2 {
-        font-size: 150%;
-    }
-
 }
