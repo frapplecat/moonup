@@ -802,12 +802,18 @@ footer {
     background: url(../images/half-moon-clouds-in-foreground-chuck-johnson.webp) no-repeat center center;
     background-size: cover;
     background-color: black;
+    display: flex;
     width: 100%;
     height: 1300px;
     text-align: center;
-    font-size: 200%;
-    line-height: 100px;
-    padding-top: 25%;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.thanks-block-nb {
+    margin: 0 15px 30px;
+    padding: 250px 0;
+    border-radius: 6px;
 }
 
 .thanks-block-100>a {
@@ -822,13 +828,13 @@ footer {
 .thanks-block-100>a>h3 {
     text-transform: uppercase;
     font-weight: normal;
-    font-size: 75%;
+    font-size: 100%;
     line-height: 30px;
     color: #fff;
 }
 
 .thanks-block-100>a>i {
-    font-size: 200%;
+    font-size: 225%;
     color: rgb(250, 200, 5);
     margin-top: 150px;
     margin-bottom: 0px;
@@ -840,8 +846,7 @@ footer {
 
 .thanks-block-100>h2 {
     font-weight: bold;
-    font-size: 150%;
-    line-height: 35px;
+    font-size: 250%;
     color: #fff;
 }
 
@@ -850,9 +855,9 @@ footer {
     font-weight: normal;
     padding: 0 30px;
     margin: 0 30px;
+    font-size: 150%;
 }
 
-}
 
 
 
@@ -953,6 +958,16 @@ footer {
     .wrapper>div>img {
         width: 600px;
     }
+
+    /* .thanks-block-100>h2 {
+        line-height: 45px;
+    }
+    
+    .thanks-block-100>p {
+        padding: 15px 15px;
+        margin: 15px 15px;
+        line-height: 40px;
+    } */
 
 }
 
@@ -1157,6 +1172,13 @@ footer {
         margin-right: -50%;
         transform: translate(-50%, -50%)
     }
+  
+    /* .thanks-block-100>p {
+        font-size: 80%;
+        line-height: 35px;
+        padding: 5px 15px;
+        margin: 5px 15px;
+    } */
 
 }
 
