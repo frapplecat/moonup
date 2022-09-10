@@ -145,7 +145,7 @@ body {
 .homepage-moon {
     height: 1100px;
     width: 100%;
-    background: url(../images/moon-up-main-image-pexels.jpg) no-repeat center center;
+    background: url(../images/moon-up-main-image-pexels.webp) no-repeat center center;
     background-size: cover;
     animation-name: moon-zoom;
     animation-duration: 5s;
@@ -294,6 +294,12 @@ body {
 
 }
 
+.info-wrapper-gb {
+    width: 100%;
+    background-color: #3a3a3a;
+    text-align: center;
+}
+
 .info-wrapper>h1 {
     color: rgb(250, 200, 5);
     text-transform: uppercase;
@@ -403,7 +409,7 @@ body {
 }
 
 .block-100>img {
-    width: 60%;
+    width: 40%;
     height: auto;
 }
 
@@ -453,7 +459,7 @@ body {
 }
 
 .mw-info-wrapper-bkg>div>img {
-    width: 60%;
+    width: 40%;
 
 }
 
@@ -701,7 +707,7 @@ footer {
 /* sign-up section */
 
 .sign-up-section {
-    background: url(../images/pexels-pixabay-73872.jpg) no-repeat center center;
+    background: url(../images/rocket-launch-pexels.webp) no-repeat center center;
     background-size: cover;
     height: 1200px;
     position: relative;
@@ -773,7 +779,7 @@ footer {
     color: black;
 }
 
-.myfile {
+.choosefile {
     margin-top: 8px;
     padding: 12px 36%;
     border-radius: 2px;
@@ -785,7 +791,7 @@ footer {
     display: block;
 }
 
-.myfile:hover {
+.choosefile:hover {
     border-color: rgb(250, 200, 5);
 }
 
@@ -795,15 +801,56 @@ footer {
 #thankyou {
     background: url(../images/half-moon-clouds-in-foreground-chuck-johnson.webp) no-repeat center center;
     background-size: cover;
+    background-color: black;
     width: 100%;
-    height: 1100px;
+    height: 1300px;
     text-align: center;
     font-size: 200%;
     line-height: 100px;
+    padding-top: 25%;
 }
 
-.thankyou-block-100>p {
-    font-size: 125%;
+.thanks-block-100>a {
+    text-decoration: none;
+}
+
+.thanks-block-100>a>h3:hover {
+    color: rgb(250, 200, 5);
+    font-size: bold;
+}
+
+.thanks-block-100>a>h3 {
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 75%;
+    line-height: 30px;
+    color: #fff;
+}
+
+.thanks-block-100>a>i {
+    font-size: 200%;
+    color: rgb(250, 200, 5);
+    margin-top: 150px;
+    margin-bottom: 0px;
+}
+
+.thanks-block-100 {
+    width: calc(100% - 30px)
+}
+
+.thanks-block-100>h2 {
+    font-weight: bold;
+    font-size: 150%;
+    line-height: 35px;
+    color: #fff;
+}
+
+.thanks-block-100>p {
+    color: #fff;
+    font-weight: normal;
+    padding: 0 30px;
+    margin: 0 30px;
+}
 
 }
 
@@ -1095,6 +1142,20 @@ footer {
 
     .mw-info-wrapper-bkg>div>img {
         min-width: 250px;
+    }
+
+    .signup-form {
+        color: #fff;
+        background-color: #3a3a3a95;
+        border-radius: 6px;
+        text-align: center;
+        max-width: 800px;
+        padding: 30px;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%)
     }
 
 }
