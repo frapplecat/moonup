@@ -6,7 +6,7 @@
 <br>
 <br>
 
-# ABOUT MOONUP
+# <span style="color: rgb (250, 205, 5);">ABOUT MOONUP</span>
 
 MoonUp is a website created for a small group of amateur astronomers based in Cork city who wish to share their knowledge with as wide a range of people as possible. 
 Parts of astromomy and the night sky are a quite niche or exclusive hobby to many people and can be appear intimidating to a novice, we'd like to change that.
