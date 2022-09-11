@@ -2,7 +2,11 @@
 
 ![Am I Responsive screenshots](readme-images/am-i-responnsive-screenshot.png)
 
-# About MoonUp
+<br>
+<br>
+<br>
+
+# ABOUT MOONUP
 
 MoonUp is a website created for a small group of amateur astronomers based in Cork city who wish to share their knowledge with as wide a range of people as possible. 
 Parts of astromomy and the night sky are a quite niche or exclusive hobby to many people and can be appear intimidating to a novice, we'd like to change that.
@@ -12,65 +16,151 @@ night sky but it deosn't take much to change that mindset. When viewed through a
 a community, build up numbers and get lots of sign-up to the newsletter. Overtime the moon-shots page will contain more pictures from attendees and from the various moon watches
 and over meet-ups.
 
-# Initial Wireframes
+<br>
+<br>
+<br>
+
+# INITIAL WIREFRAMES
+Rough wireframes created in Balsamiq
+
 ![Balsamiq desktop wireframe screenshots](readme-images/desktop-wireframe.png)
 ![Balsamiq mobile wireframe screenshots](readme-images/mobile-wireframe.png)
 
-# Website Features
-I wanted to keep a nice and clean layout. I removed some headings from my original above the fold section wireframes as I thought it looked too busy on the page, especially when I started resizing to mobile screen sizes. I chose a colour scheme that complemented the lunar theme with whites and greys mainly but with a yellow, from the occasional yellow moon, to add a pop of colour and interest. This signature colour could be easily changed to suit any unusual lunar activity throughout the year e.g. when there's a blue or red moon.
+<br>
+<br>
+<br>
+
+# WEBSITE OVERVIEW
+I wanted to keep a simple, clean layout. I removed some headings above the fold section from my original wireframes as I thought it looked too busy on the page, especially when I started resizing to mobile screen sizes. I chose a colour scheme that complemented the lunar theme with whites and greys mainly but with a yellow, from the occasional yellow moon, to add a pop of colour and interest. This signature colour could be easily changed to suit any unusual lunar activity throughout the year e.g. when there's a blue or red moon.
 
 ![colour scheme change screenshot1](readme-images/blue-moon-example.png)
+
 ![colour scheme change screenshot2](readme-images/blood-moon-example.png)
 
-## Homepage
+<br>
+<br>
+<br>
+
+# HOMEPAGE
+
+![homepage](readme-images/homepage.png)
 
 The main page is an images of the full moon, animated so it zooms in to tie in with the main heading's simple question that will hopefully intrigue and get the viewer to explore the rest of the page.
 The main heading is in a circular container to keep with the moon theme and the yellow is eyecatching against the white/grey/black lunar colour scheme.
 
-About moonup section 
-The about moonup section will briefly explain about moonup, where the meet and what's needed and include some links in the text content to other sections or pages with more detail.
+<br>
+<br>
+<br>
 
-Beyond the moon section 
+## ABOUT MOONUP SECTION
+
+![about moonup](readme-images/about-moonup.png)
+ 
+The about moonup section will briefly explain about moonup, where they meet, what's needed and include some links in the text content to other sections or pages with more detail.
+
+<br>
+<br>
+<br>
+
+## BEYOND THE MOON SECTION
+
+![beyond the moon](readme-images/beyond-the-moon.png)
+
 The beyond the moon section will briefly expand on what else moonup can show people and provide dates and locations or some upcoming events.
 This section will be updated as events are completed and when new events are added through the year. 
 
+<br>
+<br>
+<br>
 
-### Navigation
-### Footer
-## Moon watch page
+# NAVIGATION
+## DESKTOP
+![nav-header](readme-images/moonup-nav-header.png)
 
-To keep the them consistent the moon watch page is similar in style to the homepage but with a new image and no animation. Another simple question for the main heading that will hopefully intrigue and get the viewer to explore the rest of the page.
+MoonUp logo on left that always links to home page. Links to other pages on right, bold white on active, yellow and bold on hover.
+## MOBILE
+![hamburger](readme-images/nav-hamburger-menu.png) <br>
+Collapses to hamburger menu at smaller sizes.
 
-About moon watches section 
-The about moon watches section will briefly explain about the moon watches. The why, where and how but with being overly complicated. It will also have information about the upcoming moon watches: Where, When, What phase of moon. This section will be updated as moon watches are completed and when new moon watches are added through the year. Below this there is a simple calendar showing the Moon Phases (full, new)
-for the reaminder of the year and into 2023.
+## FOOTER
 
+![footer](readme-images/footer.png)
 
-## Moon shots page
+Twitter, Facebook, Instagram, Youtube in the footer along with a contact us link. Turn yellow on hover.
 
+<br>
+<br>
+<br>
+
+# MOON WATCH PAGE
+
+![moon-watch page](readme-images/moon-watch.png)
+
+To keep the them consistent the moon watch page is similar in style to the homepage but with a new image and no animation. Another simple question for the main heading that will lead the viewer to explore the rest of the page.
+
+<br>
+<br>
+<br>
+
+## ABOUT MOON WATCHES SECTION
+
+![about moon-watch page](readme-images/about-moon-watches.png)
+
+The why, where and how but with being overly complicated. It will also have information about the upcoming moon watches. This section will be updated as moon watches are completed and when new moon watches are added through the year.
+
+<br>
+<br>
+<br>
+
+## MOON PHASES SECTION
+
+![moonphases](readme-images/moonphases.png)
+
+Below this there is a simple calendar showing the Moon Phases for the reaminder of the year and into 2023.
+
+<br>
+<br>
+<br>
+
+# MOON SHOTS PAGE
+![about moon-watch page](readme-images/moonshots.png)
 A gallery style page that will expand over time and more people send in their own images and more events are completed. 
 
+<br>
+<br>
+<br>
 
-## Sign-up page
+# SIGN-UP PAGE
+![sign up page](readme-images/sign-up.png)
+This page is where people will sign-up to the MoonUp newsletter so they can be notified of all the latest events and see photos and details of previous events. 
+As well as signing-up the user can also upload any images for the Moon shots gallery. The user will be requested to submit their full name, email and mobile number.
 
-This page is where people will sign-up to the MoonUp newsletter so they can be notified of all the latest events. The user can specify how they'd like to receive updates and can also upload any images for the 
-Moon shots gallery. The user will be requested to submit their full name, email and mobile number.
+<br>
+<br>
+<br>
+
+# CONTACT US POP-UP
+
+![contact us page]()
+
+Nestled in the footer with ths scoial media links is a contact us link. Opens in a new page, contains a text area for any questions or messages the user may have for MoonUp.
+
+<br>
+<br>
+<br>
+
+# MAPS POP-UP
+
+![maps page](readme-images/maps.png)
+
+Opens in a separate page, just some embedded google maps showing the 2 main locations used for observing.
 
 
-## Contact Us page
-
-
-## Maps page
-
-
-
-
-
-## Languages Used
+# LANGUAGES USED
 Html
 CSS
 
-## Validator Testing
+# VALIDATOR TESTING
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
@@ -113,6 +203,6 @@ Instructions on how to implement form validation on the Sign Up page was taken f
 
 ### Media
 
-The photos used throughout were mainly sourced from Pexels.com with some from Pixabay.com.
+The moon photos used throughout were mainly sourced from Pexels.com with some from Pixabay.com
 
 

@@ -1163,6 +1163,7 @@ footer {
 
     .mw-info-wrapper-bkg>div>img {
         min-width: 250px;
+        width: 100%;
     }
 
     .signup-form {
