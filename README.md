@@ -45,8 +45,8 @@ I wanted to keep a simple, clean layout. I removed some headings above the fold 
 
 ![homepage](readme-images/homepage.png)
 
-The main page is an images of the full moon, animated so it zooms in to tie in with the main heading's simple question that will hopefully intrigue and get the viewer to explore the rest of the page.
-The main heading is in a circular container to keep with the moon theme and the yellow is eyecatching against the white/grey/black lunar colour scheme.
+* The main page is an images of the full moon, animated so it zooms in to tie in with the main heading's simple question that will hopefully intrigue and get the viewer to explore the rest of the page.
+* The main heading is in a circular container to keep with the moon theme and the yellow is eyecatching against the white/grey/black lunar colour scheme.
 
 <br>
 <br>
@@ -56,7 +56,8 @@ The main heading is in a circular container to keep with the moon theme and the 
 
 ![about moonup](readme-images/about-moonup.png)
  
-The about moonup section will briefly explain about moonup, where they meet, what's needed and include some links in the text content to other sections or pages with more detail.
+* The about moonup section will briefly explain about moonup, where they meet, what's needed.
+* Also includes some links in the text content to other sections or pages with more detail.
 
 <br>
 <br>
@@ -66,8 +67,8 @@ The about moonup section will briefly explain about moonup, where they meet, wha
 
 ![beyond the moon](readme-images/beyond-the-moon.png)
 
-The beyond the moon section will briefly expand on what else moonup can show people and provide dates and locations or some upcoming events.
-This section will be updated as events are completed and when new events are added through the year. 
+* The beyond the moon section will briefly expand on what else moonup can show people and provide dates and locations or some upcoming events.
+* This section will be updated as events are completed and when new events are added through the year. 
 
 <br>
 <br>
@@ -77,16 +78,25 @@ This section will be updated as events are completed and when new events are add
 ## DESKTOP
 ![nav-header](readme-images/moonup-nav-header.png)
 
-MoonUp logo on left that always links to home page. Links to other pages on right, bold white on active, yellow and bold on hover.
+* MoonUp logo on left that always links to home page. 
+* Links to other pages on right.
+* Bold white on active.
+* Yellow and bold on hover.
+
 ## MOBILE
 ![hamburger](readme-images/nav-hamburger-menu.png) <br>
-Collapses to hamburger menu at smaller sizes.
+* Collapses to hamburger menu at smaller sizes.
 
 ## FOOTER
 
 ![footer](readme-images/footer.png)
 
-Twitter, Facebook, Instagram, Youtube in the footer along with a contact us link. Turn yellow on hover.
+* Twitter, Facebook, Instagram, Youtube in the footer along with a contact us link. 
+* Turn yellow on hover.
+* All open in new windows.
+
+![back to top](readme-images/back-to-top.png)
+* Also added a Back To Top link above the footer.
 
 <br>
 <br>
@@ -96,7 +106,8 @@ Twitter, Facebook, Instagram, Youtube in the footer along with a contact us link
 
 ![moon-watch page](readme-images/moon-watch.png)
 
-To keep the them consistent the moon watch page is similar in style to the homepage but with a new image and no animation. Another simple question for the main heading that will lead the viewer to explore the rest of the page.
+* To keep the them consistent the moon watch page is similar in style to the homepage but with a new image and no animation. 
+* Another simple question for the main heading that will lead the viewer to explore the rest of the page.
 
 <br>
 <br>
@@ -106,7 +117,9 @@ To keep the them consistent the moon watch page is similar in style to the homep
 
 ![about moon-watch page](readme-images/about-moon-watches.png)
 
-The why, where and how but with being overly complicated. It will also have information about the upcoming moon watches. This section will be updated as moon watches are completed and when new moon watches are added through the year.
+* The why, where and how but with being overly complicated. 
+* It will also have information about the upcoming moon watches. 
+* This section will be updated as moon watches are completed and when new moon watches are added through the year.
 
 <br>
 <br>
@@ -116,7 +129,7 @@ The why, where and how but with being overly complicated. It will also have info
 
 ![moonphases](readme-images/moonphases.png)
 
-Below this there is a simple calendar showing the Moon Phases for the reaminder of the year and into 2023.
+* Below this there is a simple calendar showing the Moon Phases for the reaminder of the year and into 2023.
 
 <br>
 <br>
@@ -124,7 +137,7 @@ Below this there is a simple calendar showing the Moon Phases for the reaminder 
 
 # MOON SHOTS PAGE
 ![about moon-watch page](readme-images/moonshots.png)
-A gallery style page that will expand over time and more people send in their own images and more events are completed. 
+* A gallery style page that will expand over time and more people send in their own images and more events are completed. 
 
 <br>
 <br>
@@ -132,8 +145,9 @@ A gallery style page that will expand over time and more people send in their ow
 
 # SIGN-UP PAGE
 ![sign up page](readme-images/sign-up.png)
-This page is where people will sign-up to the MoonUp newsletter so they can be notified of all the latest events and see photos and details of previous events. 
-As well as signing-up the user can also upload any images for the Moon shots gallery. The user will be requested to submit their full name, email and mobile number.
+* This page is where people will sign-up to the MoonUp newsletter so they can be notified of all the latest events and see photos and details of previous events. 
+* As well as signing-up the user can also upload any images for the Moon shots gallery. 
+* The user will be requested to submit their full name, email and mobile number.
 
 <br>
 <br>
@@ -141,9 +155,11 @@ As well as signing-up the user can also upload any images for the Moon shots gal
 
 # CONTACT US POP-UP
 
-![contact us page]()
+![contact us page](readme-images/contactus.png)
 
-Nestled in the footer with ths scoial media links is a contact us link. Opens in a new page, contains a text area for any questions or messages the user may have for MoonUp.
+* Nested in the footer with the scoial media links is a contact us link. 
+* Opens in a new page.
+* Contains a text area for any questions or messages the user may have for MoonUp.
 
 <br>
 <br>
@@ -153,12 +169,19 @@ Nestled in the footer with ths scoial media links is a contact us link. Opens in
 
 ![maps page](readme-images/maps.png)
 
-Opens in a separate page, just some embedded google maps showing the 2 main locations used for observing.
+* Opens in a separate page, just some embedded google maps showing the 2 main locations used for observing.
 
+<br>
+<br>
+<br>
 
 # LANGUAGES USED
-Html
-CSS
+* HTML
+* CSS
+
+<br>
+<br>
+<br>
 
 # VALIDATOR TESTING
 
@@ -176,9 +199,17 @@ No errors were returned when passing through the official W3C validator
 CSS
 No errors were found when passing through the official (Jigsaw) validator
 
-## Bugs
+<br>
+<br>
+<br>
 
-## Deployment
+# BUGS
+
+<br>
+<br>
+<br>
+
+# DEPLOYMENT
 
 The site was deployed to GitHub pages. The steps to deploy are as follows:
 In the GitHub repository, navigate to the Settings tab
@@ -186,22 +217,38 @@ From the source section drop-down menu, select the Master Branch
 Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html
 
-## Credits
+<br>
+<br>
+<br>
+
+# CREDITS
 
 Thanks to Oisin in Code Institute
 
-### Content
+<br>
+<br>
+<br>
+
+# CONTENT
 
 The text for the Home page was taken from Wikipedia Article A
 Instructions on how to implement form validation on the Sign Up page was taken from Specific YouTube Tutorial
 The icons in the footer were taken from Font Awesome
 
-### Code
+<br>
+<br>
+<br>
+
+# CODE
 
 The text for the Home page was taken from Wikipedia Article A
 Instructions on how to implement form validation on the Sign Up page was taken from Specific YouTube Tutorial
 
-### Media
+<br>
+<br>
+<br>
+
+# MEDIA
 
 The moon photos used throughout were mainly sourced from Pexels.com with some from Pixabay.com
 
