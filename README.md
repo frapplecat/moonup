@@ -215,6 +215,9 @@ Viewed using Chrome on iMac.
 
 ![font smoothing](readme-images/font-smoothing-chrome.png)
 
+* the webp format doesn't work on older verions of MacOs/Safari.
+
+
 <br>
 <br>
 <br>
