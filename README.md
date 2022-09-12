@@ -6,22 +6,21 @@
 <br>
 <br>
 
-# <span style="color: rgb (250, 205, 5);">ABOUT MOONUP</span>
+# ABOUT MOONUP
 
 MoonUp is a website created for a small group of amateur astronomers based in Cork city who wish to share their knowledge with as wide a range of people as possible. 
 Parts of astromomy and the night sky are a quite niche or exclusive hobby to many people and can be appear intimidating to a novice, we'd like to change that.
-We're focused on the moon becuase, as our nearest celestial neighbour, it's something everyone is familiar with and it's visible from any site thoughout the year
+We're focused on the moon because, as our nearest celestial neighbour, it's something everyone is familiar with and it's visible from any site thoughout the year
 and can be enjoyed just by eye or a standard pair of binoculars. We've found that the moon can be taken for granted even by people who already have a passing interest in the
 night sky but it deosn't take much to change that mindset. When viewed through a telescope the usual response is just: WOW! The aim of the website is to hopefully develop
-a community, build up numbers and get lots of sign-up to the newsletter. Overtime the moon-shots page will contain more pictures from attendees and from the various moon watches
-and over meet-ups.
+a community, build up numbers and get lots of sign-up to the newsletter. Overtime the moon-shots page will contain more pictures from attendees and from the various moon watches and over meet-ups.
 
 <br>
 <br>
 <br>
 
 # INITIAL WIREFRAMES
-Rough wireframes created in Balsamiq
+* Rough wireframes created in Balsamiq
 
 ![Balsamiq desktop wireframe screenshots](readme-images/desktop-wireframe.png)
 ![Balsamiq mobile wireframe screenshots](readme-images/mobile-wireframe.png)
@@ -129,7 +128,7 @@ I wanted to keep a simple, clean layout. I removed some headings above the fold 
 
 ![moonphases](readme-images/moonphases.png)
 
-* Below this there is a simple calendar showing the Moon Phases for the reaminder of the year and into 2023.
+* Below this there is a simple calendar showing the Moon Phases for the remainder of the year and into 2023.
 
 <br>
 <br>
@@ -148,6 +147,7 @@ I wanted to keep a simple, clean layout. I removed some headings above the fold 
 * This page is where people will sign-up to the MoonUp newsletter so they can be notified of all the latest events and see photos and details of previous events. 
 * As well as signing-up the user can also upload any images for the Moon shots gallery. 
 * The user will be requested to submit their full name, email and mobile number.
+* Phone number field has a placeholder showing the format required for entry. Had a 3 3 4 ([0-9]{3} [0-9]{3} [0-9]{4}) format initially but on some mobiles the spaces weren't allowed so switched to 0000000000 ([0-9]{10}) instead.
 
 <br>
 <br>
@@ -204,6 +204,16 @@ No errors were found when passing through the official (Jigsaw) validator
 <br>
 
 # BUGS
+
+* As noted above, in the sign-up section the phone number field has a placeholder showing the format required for entry. Had a 3 3 4 ([0-9]{3} [0-9]{3} [0-9]{4}) format initially 
+but on some mobiles the spaces weren't allowed so switched to 0000000000 ([0-9]{10}) instead.
+
+
+* The white text on #3a3a3a background seemed bolder in certain browsers. From what I could find researching the problem it seems to be linked to font smoothing, may just be a mac issue as well.
+Screenshot below showing before and after -moz-osx-font-smoothing: grayscale; applied.
+Viewed using Chrome on iMac.
+
+![font smoothing](readme-images/font-smoothing-chrome.png)
 
 <br>
 <br>
