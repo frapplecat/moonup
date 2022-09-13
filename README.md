@@ -38,6 +38,20 @@ I wanted to keep a simple, clean layout. I removed some headings above the fold 
 <br>
 <br>
 
+# LOGO & HEADINGS
+* I created the logo and headings in Adobe Illustrator, outlining the Rubik Moonrocks font, and exported as .svg
+
+
+![logo](readme-images/moonuplogoheading1.png)
+![heading1](readme-images/moonuplogoheading2.png)
+![heading2](readme-images/beyondthemoonheading.png)
+![heading](readme-images/moonwatchesheading.png)
+
+
+<br>
+<br>
+<br>
+
 # HOMEPAGE
 
 ![homepage](readme-images/homepage.png)
@@ -167,7 +181,8 @@ I wanted to keep a simple, clean layout. I removed some headings above the fold 
 * Opens in a new page.
 * Contains a text area for any questions or messages the user may have for MOONup.
 
-![thanks for contacting us](readme-images/thanksfor contactingus.png)
+
+![thanks for contacting us](readme-images/thanksforcontactingus.png)
 * As on the Sign-up page I used the Code Institute form-dump details for testing but changed to a Thanks page after confirming it worked.
 
 <br>
