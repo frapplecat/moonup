@@ -1,4 +1,4 @@
-![MoonUp Logo](readme-images/moonup-logo.png)
+![MOONup Logo](readme-images/moonup-logo.png)
 
 ![Am I Responsive screenshots](readme-images/am-i-responnsive-screenshot.png)
 
@@ -8,12 +8,10 @@
 
 # ABOUT MOONUP
 
-MoonUp is a website created for a small group of amateur astronomers based in Cork city who wish to share their knowledge with as wide a range of people as possible. 
-Parts of astromomy and the night sky are a quite niche or exclusive hobby to many people and can be appear intimidating to a novice, we'd like to change that.
-We're focused on the moon because, as our nearest celestial neighbour, it's something everyone is familiar with and it's visible from any site thoughout the year
-and can be enjoyed just by eye or a standard pair of binoculars. We've found that the moon can be taken for granted even by people who already have a passing interest in the
-night sky but it deosn't take much to change that mindset. When viewed through a telescope the usual response is just: WOW! The aim of the website is to hopefully develop
-a community, build up numbers and get lots of sign-up to the newsletter. Overtime the moon-shots page will contain more pictures from attendees and from the various moon watches and over meet-ups.
+MOONup is a website created for a small group of amateur astronomers based in Cork city who wish to share their knowledge with as wide a range of people as possible. 
+Astromomy can be appear intimidating to a novice, they'd like to change that.
+They're focused on the moon because, as our nearest celestial neighbour, it's something everyone is familiar with, it's visible from any site thoughout the year
+and can be enjoyed just by eye or a standard pair of binoculars. However they've found that the moon can be taken for granted, even by people who already have a passing interest in the night sky, but it deosn't take much to change that mindset. When viewed through a telescope the usual response is just: WOW! The aim of the website is to hopefully develop a community, build-up numbers and get lots of sign-ups to the newsletter. Over time the moon-shots page will contain more pictures from attendees and from the various moon watches and meet-ups.
 
 <br>
 <br>
@@ -77,7 +75,7 @@ I wanted to keep a simple, clean layout. I removed some headings above the fold 
 ## DESKTOP
 ![nav-header](readme-images/moonup-nav-header.png)
 
-* MoonUp logo on left that always links to home page. 
+* MOONup logo on left that always links to home page. 
 * Links to other pages on right.
 * Bold white on active.
 * Yellow and bold on hover.
@@ -144,10 +142,18 @@ I wanted to keep a simple, clean layout. I removed some headings above the fold 
 
 # SIGN-UP PAGE
 ![sign up page](readme-images/sign-up.png)
-* This page is where people will sign-up to the MoonUp newsletter so they can be notified of all the latest events and see photos and details of previous events. 
+* This page is where people will sign-up to the MOONup newsletter so they can be notified of all the latest events and see photos and details of previous events. 
 * As well as signing-up the user can also upload any images for the Moon shots gallery. 
 * The user will be requested to submit their full name, email and mobile number.
 * Phone number field has a placeholder showing the format required for entry. Had a 3 3 4 ([0-9]{3} [0-9]{3} [0-9]{4}) format initially but on some mobiles the spaces weren't allowed so switched to 0000000000 ([0-9]{10}) instead.
+
+<br>
+<br>
+<br>
+
+![form method POST](readme-images/form-method-post.png)
+![thanks for signing up](readme-images/thanksforsigningup.png)
+* Used the Code Institute form-dump details for testing but it was mentioned on Slack that it'd be better practice to change to a Thanks page after confirming it worked.
 
 <br>
 <br>
@@ -159,7 +165,10 @@ I wanted to keep a simple, clean layout. I removed some headings above the fold 
 
 * Nested in the footer with the scoial media links is a contact us link. 
 * Opens in a new page.
-* Contains a text area for any questions or messages the user may have for MoonUp.
+* Contains a text area for any questions or messages the user may have for MOONup.
+
+![thanks for contacting us](readme-images/thanksfor contactingus.png)
+* As on the Sign-up page I used the Code Institute form-dump details for testing but changed to a Thanks page after confirming it worked.
 
 <br>
 <br>
@@ -210,13 +219,21 @@ but on some mobiles the spaces weren't allowed so switched to 0000000000 ([0-9]{
 
 
 * The white text on #3a3a3a background seemed bolder in certain browsers. From what I could find researching the problem it seems to be linked to font smoothing, may just be a mac issue as well.
-Screenshot below showing before and after -moz-osx-font-smoothing: grayscale; applied.
+Screenshot below showing before and after -webkit-font-smoothing: antialiased; applied.
 Viewed using Chrome on iMac.
 
 ![font smoothing](readme-images/font-smoothing-chrome.png)
 
-* the webp format doesn't work on older verions of MacOs/Safari.
+* As of June 23, 2020, all major browsers — Chrome, Edge, Firefox & Safari (14+) — support the WebP format but I've noticed that it doesn't work on older verions of MacOs/Safari. I was going to try and set up a fallback using jpgs for these older OSs. The
+picture tag was reccommded as a solution e.g.
 
+        <picture>
+            <source type="image/webp" srcset="assets/images/full-moon-silhouetted-branches-david-dibert 720px.webp">
+            <source type="image/jpg" srcset="assets/images/full-moon-silhouetted-branches-david-dibert.jpg">
+            <img src="assets/images/full-moon-silhouetted-branches-david-dibert.jpg"  type="image/jpg" alt="dark black sky with large full moon with silhouetted tree branches by david dibert">
+          </picture>    
+
+I had some difficulty getting it to work though, with the jpg over-riding the webp in all instances. I discussed with a Code Institute Tutor and the suggested just sticking with webp as: There has to come a point where older browsers aren't developed for anymore and webp has been around for some time now. Most of the world is using a Chromium based browser or Firefox. I might revisit if required or just out of curiosity to see it working.
 
 <br>
 <br>
@@ -224,11 +241,16 @@ Viewed using Chrome on iMac.
 
 # DEPLOYMENT
 
-The site was deployed to GitHub pages. The steps to deploy are as follows:
-In the GitHub repository, navigate to the Settings tab
-From the source section drop-down menu, select the Master Branch
-Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html
+* The site was deployed to GitHub pages<br>
+
+* The steps to deploy are as follows:
+* Go to GitHub repository
+* Navigate to the Settings tab
+* Select source section drop-down menu
+* Select the Master Branch
+* Once the master branch has been selected, the page will be automatically refreshed 
+* A detailed ribbon display will indicate the successful deployment.
+* The live link can be found here:
 
 <br>
 <br>
@@ -236,7 +258,6 @@ The live link can be found here - https://code-institute-org.github.io/love-runn
 
 # CREDITS
 
-Thanks to Oisin in Code Institute
 
 <br>
 <br>
@@ -244,9 +265,7 @@ Thanks to Oisin in Code Institute
 
 # CONTENT
 
-The text for the Home page was taken from Wikipedia Article A
-Instructions on how to implement form validation on the Sign Up page was taken from Specific YouTube Tutorial
-The icons in the footer were taken from Font Awesome
+The paras on Binoculars and Telescopes were taken from the NASA website section on observing the moon.
 
 <br>
 <br>
@@ -254,8 +273,30 @@ The icons in the footer were taken from Font Awesome
 
 # CODE
 
-The text for the Home page was taken from Wikipedia Article A
-Instructions on how to implement form validation on the Sign Up page was taken from Specific YouTube Tutorial
+## Love Running
+I based a lot of the layout on the Code Institute Love Running initially. I changed the hero zoom slightly to better suit what I wanted.
+I moved away from the Floats to a Flex model which seemed to work better for me especially when making the site responsive. Thanks to Code Institute Tutor, Oisin,
+for pointing me in that direction to fix a centering issue. I found this youtube video by Luke Peters very instructive as well with regard to 
+responsive columns: https://www.youtube.com/watch?v=-pcMxrugSbs 
+
+## Hamburger Menu Code
+https://alvarotrigo.com/blog/hamburger-menu-css/
+
+This was an excellent run through various style and option. I adpated one of the options so it extended a bit further into the page so it didn't partial block my logo
+and also amended the colours and romved some lines.
+
+## White font appears bolder
+https://stackoverflow.com/questions/14477265/css-white-text-on-black-background-looks-bolder
+
+body {
+-moz-font-smoothing: antialiased;
+-o-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+-webkit-font-smoothing: antialiased;
+}
+
+I found the above or variation thereof in a few places but used the one form a stackoverflow chat. The last one of the four is the one that seems to work.
+
 
 <br>
 <br>
@@ -263,6 +304,6 @@ Instructions on how to implement form validation on the Sign Up page was taken f
 
 # MEDIA
 
-The moon photos used throughout were mainly sourced from Pexels.com with some from Pixabay.com
+The moon photos used throughout were mainly sourced from Pexels.com with some from Pixabay.com. I've kept the photographers names in the alt description when available.
 
 
