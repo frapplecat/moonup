@@ -28,7 +28,7 @@ h2 {
     font-weight: bold;
 }
 
-   /* menu navigation */
+/* menu navigation */
 
 .top-nav {
     display: flex;
@@ -159,7 +159,6 @@ h2 {
 }
 
 .homepage-moon-circle {
-    /* font-size: 300%; */
     color: #3a3a3a;
     text-transform: uppercase;
     padding: 15px;
@@ -194,7 +193,6 @@ h2 {
 .homepage-moon-circle>h2>a {
     color: #3a3a3a;
     text-decoration: none;
-    /* font-size: 150%; */
 }
 
 .homepage-moon-circle>h2>a:hover {
@@ -623,6 +621,7 @@ th {
 }
 
 /* moon-shots page */
+
 .moon-shots {
     clear: both;
     line-height: 0;
@@ -702,7 +701,7 @@ footer {
     transform: translate(-50%, -50%);
 }
 
-.contactus-textarea{
+.contactus-textarea {
     background: transparent;
     border: 2px solid white;
     border-radius: 2px;
@@ -712,8 +711,6 @@ footer {
     text-align: center;
     width: 740px;
 }
-
-
 
 /* sign-up section */
 
@@ -806,7 +803,6 @@ footer {
     border-color: rgb(250, 200, 5);
 }
 
-
 /* thank you */
 
 #thankyou {
@@ -868,9 +864,6 @@ footer {
     margin: 0 30px;
     font-size: 150%;
 }
-
-
-
 
 /* media queries */
 
@@ -1175,14 +1168,14 @@ footer {
         transform: translate(-50%, -50%)
     }
 
-    
-    .contactus-textarea{
+
+    .contactus-textarea {
         width: 320px;
     }
 
     .thanks-block-100>h2 {
         font-size: 265%;
-}
+    }
 }
 
 /* media queries max-width: 390px */
