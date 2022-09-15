@@ -42,10 +42,10 @@ I wanted to keep a simple, clean layout. I removed some headings above the fold 
 * I created the logo and headings in Adobe Illustrator, outlining the Rubik Moonrocks font, and exported as .svg
 
 
-![logo](readme-images/moonuplogoheading1.png)
-![heading1](readme-images/moonuplogoheading2.png)
-![heading2](readme-images/beyondthemoonheading.png)
-![heading](readme-images/moonwatchesheading.png)
+![logo](readme-images/moonuplogoheading1.png)<br>
+![heading1](readme-images/moonuplogoheading2.png)<br>
+![heading2](readme-images/beyondthemoonheading.png)<br>
+![heading](readme-images/moonwatchesheading.png)<br>
 
 
 <br>
@@ -103,7 +103,7 @@ I wanted to keep a simple, clean layout. I removed some headings above the fold 
 ![footer](readme-images/footer.png)
 
 * Twitter, Facebook, Instagram, Youtube in the footer along with a contact us link. 
-* Turn yellow on hover.
+* Turns yellow on hover.
 * All open in new windows.
 
 ![back to top](readme-images/back-to-top.png)
@@ -128,7 +128,7 @@ I wanted to keep a simple, clean layout. I removed some headings above the fold 
 
 ![about moon-watch page](readme-images/about-moon-watches.png)
 
-* The why, where and how but with being overly complicated. 
+* The why, where and how but without being overly complicated. 
 * It will also have information about the upcoming moon watches. 
 * This section will be updated as moon watches are completed and when new moon watches are added through the year.
 
@@ -140,22 +140,28 @@ I wanted to keep a simple, clean layout. I removed some headings above the fold 
 
 ![moonphases](readme-images/moonphases.png)
 
-* Below this there is a simple calendar showing the Moon Phases for the remainder of the year and into 2023.
+* A simple calendar showing the Moon Phases for the remainder of the year and into 2023.
+
 
 <br>
 <br>
 <br>
 
 # MOON SHOTS PAGE
+
 ![about moon-watch page](readme-images/moonshots.png)
+
 * A gallery style page that will expand over time and more people send in their own images and more events are completed. 
+
 
 <br>
 <br>
 <br>
 
 # SIGN-UP PAGE
+
 ![sign up page](readme-images/sign-up.png)
+
 * This page is where people will sign-up to the MOONup newsletter so they can be notified of all the latest events and see photos and details of previous events. 
 * As well as signing-up the user can also upload any images for the Moon shots gallery. 
 * The user will be requested to submit their full name, email and mobile number.
@@ -167,6 +173,7 @@ I wanted to keep a simple, clean layout. I removed some headings above the fold 
 
 ![form method POST](readme-images/form-method-post.png)
 ![thanks for signing up](readme-images/thanksforsigningup.png)
+
 * Used the Code Institute form-dump details for testing but it was mentioned on Slack that it'd be better practice to change to a Thanks page after confirming it worked.
 
 <br>
@@ -183,6 +190,7 @@ I wanted to keep a simple, clean layout. I removed some headings above the fold 
 
 
 ![thanks for contacting us](readme-images/thanksforcontactingus.png)
+
 * As on the Sign-up page I used the Code Institute form-dump details for testing but changed to a Thanks page after confirming it worked.
 
 <br>
@@ -200,6 +208,7 @@ I wanted to keep a simple, clean layout. I removed some headings above the fold 
 <br>
 
 # LANGUAGES USED
+
 * HTML
 * CSS
 
@@ -209,13 +218,17 @@ I wanted to keep a simple, clean layout. I removed some headings above the fold 
 
 # VALIDATOR TESTING
 
-No errors were returned when passing through the official W3C validator.
-Also included web dev lighthouse results.
-
 ![validator-lighthouse](readme-images/Validator-lighthouse.png)
 
+* No errors were returned when passing through the official W3C validator.
+* Also included web dev lighthouse results.
+
 CSS
-No errors were found when passing through the official (Jigsaw) validator
+
+![validator-css](readme-images/w3c-css-validator.png)
+
+* No errors were found when passing through the official (Jigsaw) validator
+
 
 <br>
 <br>
@@ -242,7 +255,7 @@ picture tag was reccommded as a solution e.g.
             <img src="assets/images/full-moon-silhouetted-branches-david-dibert.jpg"  type="image/jpg" alt="dark black sky with large full moon with silhouetted tree branches by david dibert">
           </picture>    
 
-I had some difficulty getting it to work though, with the jpg over-riding the webp in all instances. I discussed with a Code Institute Tutor and the suggested just sticking with webp as: There has to come a point where older browsers aren't developed for anymore and webp has been around for some time now. Most of the world is using a Chromium based browser or Firefox. I might revisit if required or just out of curiosity to see it working.
+* I had some difficulty getting it to work though, with the jpg over-riding the webp in all instances. I discussed with a Code Institute Tutor and the suggested just sticking with webp as: There has to come a point where older browsers aren't developed for anymore and webp has been around for some time now. Most of the world is using a Chromium based browser or Firefox. I might revisit if required or just out of curiosity to see it working.
 
 <br>
 <br>
@@ -283,15 +296,15 @@ The paras on Binoculars and Telescopes were taken from the NASA website section 
 # CODE
 
 ## Love Running
-I based a lot of the layout on the Code Institute Love Running initially. I changed the hero zoom slightly to better suit what I wanted.
-I moved away from the Floats to a Flex model which seemed to work better for me especially when making the site responsive. Thanks to Code Institute Tutor, Oisin,
+* I based a lot of the layout on the Code Institute Love Running initially. I changed the hero zoom slightly to better suit what I wanted.
+* I moved away from the Floats to a Flex model which seemed to work better for me especially when making the site responsive. Thanks to Code Institute Tutor, Oisin,
 for pointing me in that direction to fix a centering issue. I found this youtube video by Luke Peters very instructive as well with regard to 
 responsive columns: https://www.youtube.com/watch?v=-pcMxrugSbs 
 
 ## Hamburger Menu Code
 https://alvarotrigo.com/blog/hamburger-menu-css/
 
-This was an excellent run through various style and option. I adpated one of the options so it extended a bit further into the page so it didn't partial block my logo
+* This was an excellent run through various style and option. I adpated one of the options so it extended a bit further into the page so it didn't partially block my logo
 and also amended the colours and romved some lines.
 
 ## White font appears bolder
@@ -304,7 +317,18 @@ body {
 -webkit-font-smoothing: antialiased;
 }
 
-I found the above or variation thereof in a few places but used the one form a stackoverflow chat. The last one of the four is the one that seems to work.
+* I found the above or variation thereof in a few places but used the one form a stackoverflow chat. The last one of the four is the one that seems to work.
+
+
+## Centering Issue
+https://medium.com/swlh/how-well-do-you-know-css-52290217ff6e
+
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+
+* I had some hassle with centering on the sign-up page, used the above code to fix the problem.    
 
 
 <br>
@@ -313,6 +337,4 @@ I found the above or variation thereof in a few places but used the one form a s
 
 # MEDIA
 
-The moon photos used throughout were mainly sourced from Pexels.com with some from Pixabay.com. I've kept the photographers names in the alt description when available.
-
-
+* The moon photos used throughout were mainly sourced from Pexels.com with some from Pixabay.com. I've kept the photographers names in the alt description when available.

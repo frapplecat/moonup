@@ -360,7 +360,7 @@ h2 {
 
 .block-100>a>h3:hover {
     color: rgb(250, 200, 5);
-    font-size: bold;
+    font-weight: bold;
 }
 
 .block-100>a>h3 {
@@ -833,7 +833,7 @@ footer {
 
 .thanks-block-100>a>h3:hover {
     color: rgb(250, 200, 5);
-    font-size: bold;
+    font-weight: bold;
 }
 
 .thanks-block-100>a>h3 {
@@ -1182,6 +1182,7 @@ footer {
 
     .thanks-block-100>h2 {
         font-size: 265%;
+}
 }
 
 /* media queries max-width: 390px */
