@@ -23,6 +23,7 @@
 - [SIGN-UP PAGE](#sign-up-page)
 - [CONTACT US POP-UP](#contact-us-pop-up)
 - [MAPS POP-UP](#maps-pop-up)
+- [RESPONSIVENESS](#responsiveness)
 - [LANGUAGES USED](#languages-used)
 - [VALIDATOR TESTING](#validator-testing)
 - [BUGS](#bugs)
@@ -241,6 +242,17 @@ I wanted to keep a simple, clean layout. I removed some headings above the fold 
 <br>
 <br>
 
+# RESPONSIVENESS 
+
+![responsiveness1](readme-images/responsive-mobile-screenshot1.png)
+![responsiveness2](readme-images/responsive-mobile-screenshot2.png)
+
+* screenshots for widths 820px, 412px, 375px & 360px (iPad Air, iPhone SE, Galaxy S20 Ultra, Samsung Galaxy S8+)
+
+<br>
+<br>
+<br>
+
 # LANGUAGES USED
 
 * HTML
@@ -375,4 +387,6 @@ https://medium.com/swlh/how-well-do-you-know-css-52290217ff6e
 
 # MEDIA
 
-* The moon photos used throughout were mainly sourced from Pexels.com with some from Pixabay.com. I've kept the photographers names in the alt description when available.
+* The photos used throughout were mainly sourced from Pexels.com with some from Pixabay.com. I've kept the photographers names in the alt description when available.
+* photos converted from jpg to webp using https://convertio.co/jpg-webp/
+* photos resized using https://bulkresizephotos.com/en
