@@ -6,6 +6,40 @@
 <br>
 <br>
 
+- [INITIAL WIREFRAMES](#initial-wireframes)
+- [WEBSITE OVERVIEW](#website-overview)
+- [LOGO & HEADINGS](#logo---headings)
+- [HOMEPAGE](#homepage)
+  * [ABOUT MOONUP SECTION](#about-moonup-section)
+  * [BEYOND THE MOON SECTION](#beyond-the-moon-section)
+- [NAVIGATION](#navigation)
+  * [DESKTOP](#desktop)
+  * [MOBILE](#mobile)
+  * [FOOTER](#footer)
+- [MOON WATCH PAGE](#moon-watch-page)
+  * [ABOUT MOON WATCHES SECTION](#about-moon-watches-section)
+  * [MOON PHASES SECTION](#moon-phases-section)
+- [MOON SHOTS PAGE](#moon-shots-page)
+- [SIGN-UP PAGE](#sign-up-page)
+- [CONTACT US POP-UP](#contact-us-pop-up)
+- [MAPS POP-UP](#maps-pop-up)
+- [LANGUAGES USED](#languages-used)
+- [VALIDATOR TESTING](#validator-testing)
+- [BUGS](#bugs)
+- [DEPLOYMENT](#deployment)
+- [CREDITS](#credits)
+- [CONTENT](#content)
+- [CODE](#code)
+  * [Love Running](#love-running)
+  * [Hamburger Menu Code](#hamburger-menu-code)
+  * [White font appears bolder](#white-font-appears-bolder)
+  * [Centering Issue](#centering-issue)
+- [MEDIA](#media)
+
+<br>
+<br>
+<br>
+
 # ABOUT MOONUP
 
 MOONup is a website created for a small group of amateur astronomers based in Cork city who wish to share their knowledge with as wide a range of people as possible. 
@@ -328,7 +362,11 @@ https://medium.com/swlh/how-well-do-you-know-css-52290217ff6e
     margin-right: -50%;
     transform: translate(-50%, -50%)
 
-* I had some hassle with centering on the sign-up page, used the above code to fix the problem.    
+* I had some hassle with centering on the sign-up page, used the above code to fix the problem. 
+
+# Table of Contents
+* <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 
 
 <br>
