@@ -963,6 +963,11 @@ footer {
         width: 600px;
     }
 
+    .mw-info-wrapper-bkg>div>img {
+        min-width: 250px;
+        width: 100%;
+    }
+
 }
 
 
@@ -1131,11 +1136,6 @@ footer {
 
     .block-nb {
         padding: 0px;
-    }
-
-    .mw-info-wrapper-bkg>div>img {
-        min-width: 250px;
-        width: 100%;
     }
 
     .sign-up-section {

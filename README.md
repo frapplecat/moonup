@@ -311,7 +311,9 @@ https://medium.com/swlh/how-well-do-you-know-css-52290217ff6e
     margin-right: -50%;
     transform: translate(-50%, -50%)
 
-* noticed my MOONup.svg logo wasn't displaying on certain browsers like Firefox. Fixed by defining the height.
+* I noticed my MOONup.svg logo wasn't displaying on certain browsers like Firefox. Fixed by defining the height.
+
+* The hamburger menu was opening underneath the hero images on each page. Fixed by giving a z-index to the item.
 
 <br>
 <br>
