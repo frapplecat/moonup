@@ -647,13 +647,13 @@ footer {
 
 .social-networks>li {
     display: inline;
-    margin-right: 75px;
+    padding: 20px;
 }
 
 .social-networks i {
     font-size: 200%;
-    margin: 1%;
-    padding: 1%;
+    margin: 20px;
+    padding: 20px;
     color: #fff;
 }
 
@@ -972,6 +972,15 @@ footer {
     .moon-shots {
         column-count: 2;
     }
+
+    .social-networks>li {
+        padding: 0px;
+    }
+
+    .social-networks i {
+        margin: 20px 10px;
+        padding: 20px 10px;
+    }
 }
 
 /* media queries max-width: 700px */
@@ -1044,31 +1053,6 @@ footer {
         text-align: center;
         margin-left: 0;
 
-    }
-
-    footer {
-        height: 325px;
-        background-color: #3a3a3a;
-    }
-
-    .social-networks {
-        text-align: center;
-    }
-
-    .social-networks>li {
-        display: block;
-        margin: auto;
-    }
-
-    .social-networks i {
-        font-size: 200%;
-        margin: 1%;
-        padding: 10px;
-        color: #fff;
-    }
-
-    .social-networks i:hover {
-        color: rgb(250, 200, 5);
     }
 
 }
@@ -1175,6 +1159,11 @@ footer {
 
     .thanks-block-100>h2 {
         font-size: 265%;
+    }
+
+    .social-networks i {
+        margin: 20px 5px;
+        padding: 20px 5px;
     }
 }
 
