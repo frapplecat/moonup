@@ -320,6 +320,10 @@ https://medium.com/swlh/how-well-do-you-know-css-52290217ff6e
 * The placeholder text was very faint in some of the fields on the signup page. Changed the colour of the placeholder using some code from w3schools.
 https://www.w3schools.com/howto/howto_css_placeholder.asp
 
+* Couldn't get signup page to fit neatly on a range of mobile screens. I was trying to eliminate the need for much if any scrolling to the footer by using max-width queries.
+Added max-height queries to help resolve it. It worked but led to the form position movinga fraction and overlaying the logo slightly. Add a small position change to the
+max-height query in question to compensate.
+
 <br>
 <br>
 <br>
@@ -344,7 +348,7 @@ https://www.w3schools.com/howto/howto_css_placeholder.asp
 # CREDITS
 
 * Thanks to Code Institute Tutors Oisin and Scott for their advice on a couple of issues.
-* Big thank you to my CI Mentor, Mitko Bachvarov, for his support, advice and eagle eye.
+* Big thank you to my CI Mentor, Mitko Bachvarov, for his support, excellent advice and eagle eye for detail.
 
 
 <br>
