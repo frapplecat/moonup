@@ -31,22 +31,23 @@
 - [CREDITS](#credits)
 - [CONTENT](#content)
 - [CODE](#code)
-  * [Love Running](#love-running)
-  * [Hamburger Menu Code](#hamburger-menu-code)
-  * [White font appears bolder](#white-font-appears-bolder)
-  * [Centering Issue](#centering-issue)
+  * [LOVE RUNNING](#love-running)
+  * [HAMBURGER MENU CODE](#hamburger-menu-code)
+  * [WHITE TEXT APPEARS BOLDER](#white-text-appears-bolder)
+  * [CENTERING ISSUE](#centering-issue)
+  * [TABLE OF CONTENTS](#table-of-contents)
 - [MEDIA](#media)
 
 <br>
 <br>
 <br>
 
-# ABOUT MOONUP
+# ABOUT MOONup
 
 MOONup is a website created for a small group of amateur astronomers based in Cork city who wish to share their knowledge with as wide a range of people as possible. 
 Astromomy can be appear intimidating to a novice, they'd like to change that.
-They're focused on the moon because, as our nearest celestial neighbour, it's something everyone is familiar with, it's visible from any site thoughout the year
-and can be enjoyed just by eye or a standard pair of binoculars. However they've found that the moon can be taken for granted, even by people who already have a passing interest in the night sky, but it deosn't take much to change that mindset. When viewed through a telescope the usual response is just: WOW! The aim of the website is to hopefully develop a community, build-up numbers and get lots of sign-ups to the newsletter. Over time the moon-shots page will contain more pictures from attendees and from the various moon watches and meet-ups.
+They're focused on the moon because, as our nearest celestial neighbour, it's something everyone is familiar with, it's visible from most sites thoughout the year
+and can be enjoyed just by eye or a standard pair of binoculars. However they've found that the moon can be taken for granted, even by people who already have a passing interest in the night sky, but it deosn't take much to change that mindset. When viewed through a telescope the usual response is just: WOW! The aim of the website is to develop a community, build-up numbers and get lots of sign-ups to the newsletter. Over time the moonshots page will contain more pictures from attendees and from the various moonwatches, meet-ups and other events.
 
 <br>
 <br>
@@ -63,7 +64,7 @@ and can be enjoyed just by eye or a standard pair of binoculars. However they've
 <br>
 
 # WEBSITE OVERVIEW
-I wanted to keep a simple, clean layout. I removed some headings above the fold section from my original wireframes as I thought it looked too busy on the page, especially when I started resizing to mobile screen sizes. I chose a colour scheme that complemented the lunar theme with whites and greys mainly but with a yellow, from the occasional yellow moon, to add a pop of colour and interest. This signature colour could be easily changed to suit any unusual lunar activity throughout the year e.g. when there's a blue or red moon.
+I wanted to keep a simple, clean layout. I removed some headings above the fold section from my original wireframes as I thought it looked too busy on the page, especially when I started resizing to mobile screen sizes. I chose a colour scheme that complemented the lunar theme with whites and greys mainly but with a yellow, from the occasional yellow moon, to add a splash of colour and interest. This signature colour could be easily changed to suit any unusual lunar activity throughout the year e.g. when there's a blue or red moon.
 
 ![colour scheme change screenshot1](readme-images/blue-moon-example.png)
 
@@ -74,7 +75,7 @@ I wanted to keep a simple, clean layout. I removed some headings above the fold 
 <br>
 
 # LOGO & HEADINGS
-* I created the logo and headings in Adobe Illustrator, outlining the Rubik Moonrocks font, and exported as .svg
+* I created the logo and headings in Adobe Illustrator, outlined the Rubik Moonrocks font, and exported as .svg
 
 
 ![logo](readme-images/moonuplogoheading1.png)<br>
@@ -91,7 +92,7 @@ I wanted to keep a simple, clean layout. I removed some headings above the fold 
 
 ![homepage](readme-images/homepage.png)
 
-* The main page is an images of the full moon, animated so it zooms in to tie in with the main heading's simple question that will hopefully intrigue and get the viewer to explore the rest of the page.
+* The main page is an image of a full moon, animated so it zooms in to tie-in with the main heading's simple question that will hopefully intrigue and get the viewer to explore the rest of the page.
 * The main heading is in a circular container to keep with the moon theme and the yellow is eyecatching against the white/grey/black lunar colour scheme.
 
 <br>
@@ -102,7 +103,7 @@ I wanted to keep a simple, clean layout. I removed some headings above the fold 
 
 ![about moonup](readme-images/about-moonup.png)
  
-* The about moonup section will briefly explain about moonup, where they meet, what's needed.
+* The about MOONup section will briefly explain the groups goals, where they meet, what's needed for an attendee.
 * Also includes some links in the text content to other sections or pages with more detail.
 
 <br>
@@ -113,7 +114,7 @@ I wanted to keep a simple, clean layout. I removed some headings above the fold 
 
 ![beyond the moon](readme-images/beyond-the-moon.png)
 
-* The beyond the moon section will briefly expand on what else moonup can show people and provide dates and locations or some upcoming events.
+* The beyond the moon section will briefly expand on what else MOONup can show people and provide dates and locations of some upcoming events.
 * This section will be updated as events are completed and when new events are added through the year. 
 
 <br>
@@ -142,30 +143,30 @@ I wanted to keep a simple, clean layout. I removed some headings above the fold 
 * All open in new windows.
 
 ![back to top](readme-images/back-to-top.png)
-* Also added a Back To Top link above the footer.
+* Added a Back To Top link above the footer.
 
 <br>
 <br>
 <br>
 
-# MOON WATCH PAGE
+# MOONWATCH PAGE
 
 ![moon-watch page](readme-images/moon-watch.png)
 
-* To keep the them consistent the moon watch page is similar in style to the homepage but with a new image and no animation. 
+* To keep the them consistent the moonwatch page is similar in style to the homepage but with a new image and no animation. 
 * Another simple question for the main heading that will lead the viewer to explore the rest of the page.
 
 <br>
 <br>
 <br>
 
-## ABOUT MOON WATCHES SECTION
+## ABOUT MOONWATCHES SECTION
 
 ![about moon-watch page](readme-images/about-moon-watches.png)
 
 * The why, where and how but without being overly complicated. 
-* It will also have information about the upcoming moon watches. 
-* This section will be updated as moon watches are completed and when new moon watches are added through the year.
+* It will also have information about the upcoming moonwatches. 
+* This section will be updated as moonwatches are completed and when new moonwatches are added through the year.
 
 <br>
 <br>
@@ -182,25 +183,25 @@ I wanted to keep a simple, clean layout. I removed some headings above the fold 
 <br>
 <br>
 
-# MOON SHOTS PAGE
+# MOONSHOTS PAGE
 
-![about moon-watch page](readme-images/moonshots.png)
+![about moonshots page](readme-images/moonshots.png)
 
-* A gallery style page that will expand over time and more people send in their own images and more events are completed. 
+* A gallery style page that will expand over time when attendees send in their own images after events are completed. 
 
 
 <br>
 <br>
 <br>
 
-# SIGN-UP PAGE
+# SIGN UP PAGE
 
 ![sign up page](readme-images/sign-up.png)
 
-* This page is where people will sign-up to the MOONup newsletter so they can be notified of all the latest events and see photos and details of previous events. 
-* As well as signing-up the user can also upload any images for the Moon shots gallery. 
+* This page is where people will sign up to the MOONup newsletter so they can be notified of all the latest events and see photos and details of previous events. 
+* As well as signing-up the user can also upload any images for the Moonshots gallery. 
 * The user will be requested to submit their full name, email and mobile number.
-* Phone number field has a placeholder showing the format required for entry. Had a 3 3 4 ([0-9]{3} [0-9]{3} [0-9]{4}) format initially but on some mobiles the spaces weren't allowed so switched to 0000000000 ([0-9]{10}) instead.
+* All fields have a placeholder showing the format required for entry.
 
 <br>
 <br>
@@ -226,17 +227,18 @@ I wanted to keep a simple, clean layout. I removed some headings above the fold 
 
 ![thanks for contacting us](readme-images/thanksforcontactingus.png)
 
-* As on the Sign-up page I used the Code Institute form-dump details for testing but changed to a Thanks page after confirming it worked.
+* As on the Signup page I used the Code Institute form-dump details for testing but changed to a Thanks page after confirming it worked.
 
 <br>
 <br>
 <br>
 
-# MAPS POP-UP
+# MAPS Page
 
 ![maps page](readme-images/maps.png)
 
-* Opens in a separate page, just some embedded google maps showing the 2 main locations used for observing.
+* Just some embedded google maps showing the 2 main locations used for observing.
+* Not a page in the navigation bar but has links to get you back to the main content.
 
 <br>
 <br>
@@ -282,7 +284,7 @@ CSS
 
 # BUGS
 
-* As noted above, in the sign-up section the phone number field has a placeholder showing the format required for entry. Had a 3 3 4 ([0-9]{3} [0-9]{3} [0-9]{4}) format initially 
+* In the sign-up section the phone number field has a placeholder showing the format required for entry. Had a 3 3 4 ([0-9]{3} [0-9]{3} [0-9]{4}) format initially 
 but on some mobiles the spaces weren't allowed so switched to 0000000000 ([0-9]{10}) instead.
 
 
@@ -292,8 +294,7 @@ Viewed using Chrome on iMac.
 
 ![font smoothing](readme-images/font-smoothing-chrome.png)
 
-* As of June 23, 2020, all major browsers — Chrome, Edge, Firefox & Safari (14+) — support the WebP format but I've noticed that it doesn't work on older verions of MacOs/Safari. I was going to try and set up a fallback using jpgs for these older OSs. The
-picture tag was reccommded as a solution e.g.
+* As of June 23, 2020, all major browsers — Chrome, Edge, Firefox & Safari (14+) — support the WebP format but I've noticed that it doesn't work on older verions of MacOs/Safari. I was going to try and set up a fallback using jpgs for these older OSs. The picture tag was reccommended as a solution e.g.
 
         <picture>
             <source type="image/webp" srcset="assets/images/full-moon-silhouetted-branches-david-dibert 720px.webp">
@@ -301,7 +302,7 @@ picture tag was reccommded as a solution e.g.
             <img src="assets/images/full-moon-silhouetted-branches-david-dibert.jpg"  type="image/jpg" alt="dark black sky with large full moon with silhouetted tree branches by david dibert">
           </picture>    
 
-* I had some difficulty getting it to work though, with the jpg over-riding the webp in all instances. I discussed with a Code Institute Tutor and the suggested just sticking with webp as: There has to come a point where older browsers aren't developed for anymore and webp has been around for some time now. Most of the world is using a Chromium based browser or Firefox. I might revisit if required or just out of curiosity to see it working.
+I had some difficulty getting it to work though, with the jpg over-riding the webp in all instances. I discussed with a Code Institute Tutor and they suggested just sticking with webp as: There has to come a point where older browsers aren't developed for anymore and webp has been around for some time now. Most of the world is using a Chromium based browser or Firefox.
 
 * I had some hassle with centering on the sign-up page, used the code below to fix the problem. 
 https://medium.com/swlh/how-well-do-you-know-css-52290217ff6e
@@ -311,7 +312,7 @@ https://medium.com/swlh/how-well-do-you-know-css-52290217ff6e
     margin-right: -50%;
     transform: translate(-50%, -50%)
 
-* I noticed my MOONup.svg logo wasn't displaying on certain browsers like Firefox. Fixed by defining the height.
+* I noticed my MOONup.svg logo wasn't displaying on Firefox and Safari. Fixed by defining the height.
 
 * The hamburger menu was opening underneath the hero images on each page. Fixed by giving a z-index to the item.
 
@@ -338,6 +339,9 @@ https://medium.com/swlh/how-well-do-you-know-css-52290217ff6e
 
 # CREDITS
 
+* Thanks to Code Institute Tutors Oisin and Scott for their advice on a couple of issues.
+* Big thank you to my CI Mentor, Mitko Bachvarov, for his support, advice and eagle eye.
+
 
 <br>
 <br>
@@ -345,7 +349,7 @@ https://medium.com/swlh/how-well-do-you-know-css-52290217ff6e
 
 # CONTENT
 
-The paras on Binoculars and Telescopes were taken from the NASA website section on observing the moon.
+The paras on Binoculars and Telescopes on the moonwatches page were taken from the NASA website section on observing the moon.
 
 <br>
 <br>
@@ -353,19 +357,19 @@ The paras on Binoculars and Telescopes were taken from the NASA website section 
 
 # CODE
 
-## Love Running
+## LOVE RUNNING
 * I based a lot of the layout on the Code Institute Love Running initially. I changed the hero zoom slightly to better suit what I wanted.
-* I moved away from the Floats to a Flex model which seemed to work better for me especially when making the site responsive. Thanks to Code Institute Tutor, Oisin,
-for pointing me in that direction to fix a centering issue. I found this youtube video by Luke Peters very instructive as well with regard to 
-responsive columns: https://www.youtube.com/watch?v=-pcMxrugSbs 
+* I moved away from the Floats to a Flex model which seemed to work better for me especially when making the site responsive. Thanks again to CI Tutor, Oisin,
+for pointing me in that direction to fix a centering issue. 
+* I found this youtube video by Luke Peters very instructive as well with regard to responsive columns: https://www.youtube.com/watch?v=-pcMxrugSbs 
 
-## Hamburger Menu Code
+## HAMBURGER MENU CODE
 https://alvarotrigo.com/blog/hamburger-menu-css/
 
-* This was an excellent run through various style and option. I adpated one of the options so it extended a bit further into the page so it didn't partially block my logo
-and also amended the colours and romved some lines.
+* This was an excellent run-through of various style and options. I adpated one of them so it extended a bit further into the page and didn't partially block my logo
+Also amended the colours and removed some lines.
 
-## White font appears bolder
+## WHITE TEXT APPEARS BOLDER
 https://stackoverflow.com/questions/14477265/css-white-text-on-black-background-looks-bolder
 
 body {
@@ -375,10 +379,10 @@ body {
 -webkit-font-smoothing: antialiased;
 }
 
-* I found the above or variation thereof in a few places but used the one form a stackoverflow chat. The last one of the four is the one that seems to work.
+* I found the above or variations thereof in a few places but used the one from a stackoverflow chat. The last one of the four is the one that seems to work.
 
 
-## Centering Issue
+## CENTERING ISSUE
 https://medium.com/swlh/how-well-do-you-know-css-52290217ff6e
 
     top: 50%;
@@ -388,7 +392,7 @@ https://medium.com/swlh/how-well-do-you-know-css-52290217ff6e
 
 * I had some hassle with centering on the sign-up page, used the above code to fix the problem. 
 
-# Table of Contents
+# TABLE OF CONTENTS
 * <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
 
@@ -400,5 +404,5 @@ https://medium.com/swlh/how-well-do-you-know-css-52290217ff6e
 # MEDIA
 
 * The photos used throughout were mainly sourced from Pexels.com with some from Pixabay.com. I've kept the photographers names in the alt description when available.
-* photos converted from jpg to webp using https://convertio.co/jpg-webp/
-* photos resized using https://bulkresizephotos.com/en
+* Photos converted from jpg to webp using https://convertio.co/jpg-webp/
+* Photos resized using https://bulkresizephotos.com/en
