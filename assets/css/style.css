@@ -764,11 +764,10 @@ footer {
     border-color: rgb(250, 200, 5);
 }
 
-.radio {
-    padding: 45px;
-    margin-right: 50px;
-}
-
+::placeholder {
+    color:  rgba(255, 255, 255, 0.5);
+    opacity: 1; /* Firefox */
+  }
 
 .join-button {
     margin-top: 20px;
@@ -1148,7 +1147,7 @@ footer {
     }
 
     .sign-up-section {
-        height: 650px;
+        height: 570px;
     }
 
 
@@ -1186,3 +1185,27 @@ footer {
 
 
 }
+
+/* media queries max-height: 850px */
+
+
+@media screen and (max-height: 915px) {
+
+    .sign-up-section {
+        height: 700px;
+    }
+
+    }
+
+    @media screen and (max-height: 740px) {
+
+        .sign-up-section {
+            height: 550px;
+        }
+        .signup-form {
+            top: 51%;
+        }
+    
+        }
+
+    

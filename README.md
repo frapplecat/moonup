@@ -36,6 +36,7 @@
   * [WHITE TEXT APPEARS BOLDER](#white-text-appears-bolder)
   * [CENTERING ISSUE](#centering-issue)
   * [TABLE OF CONTENTS](#table-of-contents)
+  * [PLACEHOLDER](#placeholder)
 - [MEDIA](#media)
 
 <br>
@@ -316,6 +317,9 @@ https://medium.com/swlh/how-well-do-you-know-css-52290217ff6e
 
 * The hamburger menu was opening underneath the hero images on each page. Fixed by giving a z-index to the item.
 
+* The placeholder text was very faint in some of the fields on the signup page. Changed the colour of the placeholder using some code from w3schools.
+https://www.w3schools.com/howto/howto_css_placeholder.asp
+
 <br>
 <br>
 <br>
@@ -395,7 +399,9 @@ https://medium.com/swlh/how-well-do-you-know-css-52290217ff6e
 # TABLE OF CONTENTS
 * <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
-
+# PLACEHOLDER
+Changed the colour of the placeholder using some code from w3schools, adapted to suit my colour palette.
+https://www.w3schools.com/howto/howto_css_placeholder.asp
 
 <br>
 <br>
