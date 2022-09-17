@@ -454,6 +454,7 @@ h2 {
 
 .mw-info-wrapper-bkg>div>img {
     width: 40%;
+    margin-bottom: 25px;
 
 }
 
@@ -488,7 +489,6 @@ h2 {
 .mw-info-wrapper-bkg>i {
     font-size: 250%;
     color: rgb(250, 200, 5);
-    margin-top: 30px;
 }
 
 .mw-info-blocks {
@@ -520,7 +520,7 @@ h2 {
 .mw-block-33>i {
     font-size: 400%;
     color: rgb(250, 200, 5);
-    margin-top: 30px;
+    padding-top: 15px;
 }
 
 .mw-block-33>h2 {
@@ -1007,7 +1007,7 @@ footer {
 
     .mw-block-33 {
         width: 100%;
-        padding: 0 1px 30px;
+        padding: 0 5px 10px;
 
     }
 
@@ -1071,6 +1071,7 @@ footer {
     .wrapper>div>img {
         width: 450px;
 
+}
 }
 
 /* media queries max-width: 500px */
@@ -1192,6 +1193,13 @@ footer {
 
 }
 
+@media screen and (max-width: 390px) {
+.mw-info-wrapper-bkg>h2 {
+    line-height: 35px;
+    padding: 15px;
+}
+}
+
 /* media queries max-height: 850px */
 
 
@@ -1203,7 +1211,7 @@ footer {
 
     }
 
-    @media screen and (max-height: 740px) {
+@media screen and (max-height: 740px) {
 
         .sign-up-section {
             height: 550px;
@@ -1213,5 +1221,3 @@ footer {
         }
     
         }
-
-    
