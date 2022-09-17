@@ -279,7 +279,7 @@ h2 {
 /* info blocks */
 
 .info-wrapper {
-    padding: 30px 30px 100px;
+    padding: 30px;
     width: 100%;
     background-color: #3a3a3a;
     text-align: center;
@@ -372,8 +372,7 @@ h2 {
 .block-100>a>i {
     font-size: 300%;
     color: rgb(250, 200, 5);
-    margin-top: 150px;
-    margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 .block-33>p {
@@ -446,7 +445,7 @@ h2 {
 }
 
 .mw-info-wrapper-bkg {
-    padding: 30px 30px 100px;
+    padding: 30px;
     width: 100%;
     background-color: #3a3a3a;
     text-align: center;
@@ -717,7 +716,7 @@ footer {
 .sign-up-section {
     background: url(../images/rocket-launch-pexels.webp) no-repeat center center;
     background-size: cover;
-    height: 1200px;
+    height: 1050px;
     position: relative;
 }
 
@@ -757,6 +756,7 @@ footer {
     margin: 5px 0 20px;
     border: 2px solid #fafafa;
     border-radius: 2px;
+    padding: 0 10px;
 }
 
 .text-input:hover {
@@ -789,7 +789,7 @@ footer {
 
 .choosefile {
     margin-top: 8px;
-    padding: 12px 36%;
+    padding: 12px;
     border-radius: 2px;
     width: 100%;
     text-align: center;
@@ -1138,18 +1138,8 @@ footer {
         width: 100%;
     }
 
-    .signup-form {
-        color: #fff;
-        background-color: #3a3a3a95;
-        border-radius: 6px;
-        text-align: center;
-        max-width: 800px;
-        padding: 30px;
-        position: absolute;
-        top: 40%;
-        left: 50%;
-        margin-right: -50%;
-        transform: translate(-50%, -50%)
+    .sign-up-section {
+        height: 650px;
     }
 
 

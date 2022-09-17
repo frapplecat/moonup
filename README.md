@@ -303,6 +303,16 @@ picture tag was reccommded as a solution e.g.
 
 * I had some difficulty getting it to work though, with the jpg over-riding the webp in all instances. I discussed with a Code Institute Tutor and the suggested just sticking with webp as: There has to come a point where older browsers aren't developed for anymore and webp has been around for some time now. Most of the world is using a Chromium based browser or Firefox. I might revisit if required or just out of curiosity to see it working.
 
+* I had some hassle with centering on the sign-up page, used the code below to fix the problem. 
+https://medium.com/swlh/how-well-do-you-know-css-52290217ff6e
+
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+
+* noticed my MOONup.svg logo wasn't displaying on certain browsers like Firefox. Fixed by defining the height.
+
 <br>
 <br>
 <br>
