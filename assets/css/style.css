@@ -311,6 +311,7 @@ h2 {
     display: flex;
     margin: 0 -15px;
     flex-wrap: wrap;
+    padding-top: 20px;
 }
 
 .block {
@@ -636,7 +637,7 @@ th {
 /* footer */
 
 footer {
-    height: 150px;
+    height: 125px;
     background-color: #3a3a3a;
 }
 
@@ -947,6 +948,10 @@ footer {
         padding: 0 10px 30px;
 
     }
+
+    .block-100>img {
+        width: 60%;
+    }
 }
 
 
@@ -985,6 +990,10 @@ footer {
     .social-networks i {
         margin: 20px 10px;
         padding: 20px 10px;
+    }
+
+    .block-100>img {
+        width: 80%;
     }
 }
 
