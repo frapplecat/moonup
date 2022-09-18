@@ -26,6 +26,9 @@
 - [RESPONSIVENESS](#responsiveness)
 - [LANGUAGES USED](#languages-used)
 - [VALIDATOR TESTING](#validator-testing)
+  * [HTML](#html)
+  * [CSS](#css)
+  * [COLOUR](#colour)
 - [BUGS](#bugs)
 - [DEPLOYMENT](#deployment)
 - [CREDITS](#credits)
@@ -267,16 +270,24 @@ I wanted to keep a simple, clean layout. I removed some headings above the fold 
 
 # VALIDATOR TESTING
 
+## HTML
+
 ![validator-lighthouse](readme-images/Validator-lighthouse.png)
 
 * No errors were returned when passing through the official W3C validator.
 * Also included web dev lighthouse results.
 
-CSS
+## CSS
 
 ![validator-css](readme-images/w3c-css-validator.png)
 
 * No errors were found when passing through the official (Jigsaw) validator
+
+## COLOUR
+
+* I used coolors.co to check the contrast levels of the colour palette selected.
+
+https://coolors.co/contrast-checker/112a46-acc8e5
 
 
 <br>
