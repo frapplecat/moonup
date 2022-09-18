@@ -324,6 +324,8 @@ https://www.w3schools.com/howto/howto_css_placeholder.asp
 Added max-height queries to help resolve it. It worked but led to the form position movinga fraction and overlaying the logo slightly. Add a small position change to the
 max-height query in question to compensate.
 
+* Used <em></em> tags to highlight some links within para content, noticed they weren't working on certain browsers. Applied em {font-style: italic;} in CSS to correct.
+
 <br>
 <br>
 <br>

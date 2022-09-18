@@ -195,9 +195,14 @@ h2 {
     text-decoration: none;
 }
 
+.homepage-moon-circle>h2>a:visited {
+    color: rgb(119, 96, 2);
+}
+
 .homepage-moon-circle>h2>a:hover {
     color: #fff;
 }
+
 
 /* about us wrapper */
 
@@ -227,6 +232,10 @@ h2 {
     font-size: 250%;
     color: #fff;
     margin-top: 30px;
+}
+
+em {
+    font-style: italic;
 }
 
 .columns {
@@ -270,6 +279,10 @@ h2 {
 .col-33>p>a {
     text-decoration: none;
     color: #3a3a3a;
+}
+
+.col-33>p>a:visited {
+    color: rgb(119, 96, 2);
 }
 
 .col-33>p>a:hover {
@@ -357,6 +370,7 @@ h2 {
     text-decoration: none;
 }
 
+
 .block-100>a>h3:hover {
     color: rgb(250, 200, 5);
     font-weight: bold;
@@ -417,6 +431,10 @@ h2 {
 .block-100>h2>a {
     text-decoration: none;
     color: #fff;
+}
+
+.block-100>h2>a:visited {
+    color: lightgrey;
 }
 
 .block-100>h2>a:hover {
@@ -557,6 +575,11 @@ h2 {
 .mw-block-33>p>a {
     color: #fff;
     text-decoration: none;
+}
+
+.mw-block-33>p>a:visited {
+    color: lightgrey;
+
 }
 
 .mw-block-33>p>a:hover {
