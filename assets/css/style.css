@@ -63,7 +63,8 @@ h2 {
     color: #fff;
 }
 
-.menu>li>a:hover {
+.menu>li>a:hover,
+.menu>li>a:focus {
     color: rgb(250, 200, 5);
     font-weight: bold;
 }
@@ -199,7 +200,8 @@ h2 {
     color: rgb(119, 96, 2);
 }
 
-.homepage-moon-circle>h2>a:hover {
+.homepage-moon-circle>h2>a:hover,
+.homepage-moon-circle>h2>a:focus {
     color: #fff;
 }
 
@@ -285,7 +287,8 @@ em {
     color: rgb(119, 96, 2);
 }
 
-.col-33>p>a:hover {
+.col-33>p>a:hover,
+.col-33>p>a:focus {
     color: #fff;
 }
 
@@ -437,7 +440,8 @@ em {
     color: lightgrey;
 }
 
-.block-100>h2>a:hover {
+.block-100>h2>a:hover,
+.block-100>h2>a:focus {
     color: rgb(250, 200, 5);
 }
 
@@ -582,7 +586,8 @@ em {
 
 }
 
-.mw-block-33>p>a:hover {
+.mw-block-33>p>a:hover,
+.mw-block-33>p>a:focus {
     color: rgb(250, 200, 5);
 
 }
