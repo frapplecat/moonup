@@ -28,6 +28,7 @@
 - [VALIDATOR TESTING](#validator-testing)
   * [HTML](#html)
   * [CSS](#css)
+  * [LIGHTHOUSE](#lighthouse)
   * [COLOUR](#colour)
 - [BUGS](#bugs)
 - [DEPLOYMENT](#deployment)
@@ -294,18 +295,27 @@ I wanted to keep a simple, clean layout. I removed some headings above the fold 
 
 # VALIDATOR TESTING
 
-## HTML
+## HTML/CSS
 
-![validator-lighthouse](readme-images/Validator-lighthouse.png)
+![html-css-validator](readme-images/html-css-validation.png)
 
 * No errors were returned when passing through the official W3C validator.
-* Also included web dev lighthouse results.
-
-## CSS
-
-![validator-css](readme-images/w3c-css-validator.png)
-
 * No errors were found when passing through the official (Jigsaw) validator
+
+<br>
+<br>
+<br>
+
+## LIGHTHOUSE
+
+![lighthouse](readme-images/lighthouse1.png)
+![lighthouse](readme-images/lighthouse2.png)
+![lighthouse](readme-images/lighthouse3.png)
+![lighthouse](readme-images/lighthouse4.png)
+
+<br>
+<br>
+<br>
 
 ## COLOUR
 
@@ -437,10 +447,10 @@ https://medium.com/swlh/how-well-do-you-know-css-52290217ff6e
 
 * I had some hassle with centering on the sign-up page, used the above code to fix the problem. 
 
-# TABLE OF CONTENTS
+## TABLE OF CONTENTS
 * <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
-# PLACEHOLDER
+## PLACEHOLDER
 Changed the colour of the placeholder using some code from w3schools, adapted to suit my colour palette.
 https://www.w3schools.com/howto/howto_css_placeholder.asp
 
