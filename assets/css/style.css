@@ -650,6 +650,22 @@ th {
     color: #fff
 }
 
+/* Google Maps */
+
+.mapheading {
+    background-color: rgb(250, 200, 5);
+    padding: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #3a3a3a;
+}
+
+.farranwoods-map,
+.kennedypark-map {
+    width: 100%;
+
+}
+
 /* moon-shots page */
 
 .moon-shots {
@@ -699,6 +715,11 @@ footer {
     height: 1500px;
 }
 
+.contactus h2 {
+    line-height: 50px;
+    padding-bottom: 20px;
+}
+
 .send-button {
     margin-top: 20px;
     border-radius: 2px;
@@ -717,20 +738,6 @@ footer {
     color: black;
 }
 
-.contactus-message {
-    color: #fff;
-    background-color: #3a3a3a95;
-    border-radius: 6px;
-    text-align: center;
-    max-width: 800px;
-    padding: 30px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-}
-
 .contactus-textarea {
     background: transparent;
     border: 2px solid white;
@@ -739,7 +746,8 @@ footer {
     font-size: 100%;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    width: 740px;
+    padding: 10px 0;
+    width: 100%;
 }
 
 /* sign-up section */
@@ -755,7 +763,8 @@ footer {
     line-height: 40px;
 }
 
-.signup-form {
+.signup-form,
+.contactus-message {
     color: #fff;
     background-color: #3a3a3a95;
     border-radius: 6px;
@@ -1025,6 +1034,7 @@ footer {
     .block-100>img {
         width: 80%;
     }
+
 }
 
 /* media queries max-width: 700px */
@@ -1183,11 +1193,6 @@ footer {
 
     .sign-up-section {
         height: 570px;
-    }
-
-
-    .contactus-textarea {
-        width: 320px;
     }
 
     .thanks-block-100>h2 {

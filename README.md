@@ -251,9 +251,33 @@ I wanted to keep a simple, clean layout. I removed some headings above the fold 
 # RESPONSIVENESS 
 
 ![responsiveness1](readme-images/responsive-mobile-screenshot1.png)
+
+<br>
+<br>
+<br>
+
 ![responsiveness2](readme-images/responsive-mobile-screenshot2.png)
 
-* screenshots for widths 820px, 412px, 375px & 360px (iPad Air, iPhone SE, Galaxy S20 Ultra, Samsung Galaxy S8+)
+<br>
+<br>
+<br>
+
+![responsiveness3](readme-images/responsive-mobile-screenshot3.png)
+
+<br>
+<br>
+<br>
+
+![responsiveness4](readme-images/responsive-mobile-screenshot4.png)
+
+<br>
+<br>
+<br>
+
+![responsiveness5](readme-images/responsive-mobile-screenshot5.png)
+
+
+* screenshots for widths 360px, 375px, 390px, 412px, 600px, 820px, 912px & 1280px (Samsung Galaxy S8+, iPhone SE, iPhone12 Pro, Galaxy S20 Ultra, Blackberry PlayBook, iPad Air, Surface Pro7 & Nest Hub Max)
 
 <br>
 <br>
