@@ -16,13 +16,13 @@
   * [DESKTOP](#desktop)
   * [MOBILE](#mobile)
   * [FOOTER](#footer)
-- [MOON WATCH PAGE](#moon-watch-page)
-  * [ABOUT MOON WATCHES SECTION](#about-moon-watches-section)
+- [MOONWATCH PAGE](#moonwatch-page)
+  * [ABOUT MOONWATCHES SECTION](#about-moonwatches-section)
   * [MOON PHASES SECTION](#moon-phases-section)
-- [MOON SHOTS PAGE](#moon-shots-page)
+- [MOONSHOTS PAGE](#moonshots-page)
 - [SIGN-UP PAGE](#sign-up-page)
 - [CONTACT US POP-UP](#contact-us-pop-up)
-- [MAPS POP-UP](#maps-pop-up)
+- [MAPS PAGE](#maps-page)
 - [RESPONSIVENESS](#responsiveness)
 - [LANGUAGES USED](#languages-used)
 - [VALIDATOR TESTING](#validator-testing)
@@ -298,7 +298,7 @@ I wanted to keep a simple, clean layout. I removed some headings above the fold 
 
 # VALIDATOR TESTING
 
-## HTML/CSS
+## HTML-CSS
 
 ![html-css-validator](readme-images/html-css-validation.png)
 
