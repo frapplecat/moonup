@@ -334,7 +334,8 @@ I wanted to keep a simple, clean layout. I removed some headings above the fold 
 * PIXABAY.COM - for stock images
 * GOOGLE DEV TOOLS - for troubleshooting and testing fixes
 * W3C HTML & CSS VALIDATORS - to test HTML and CSS code
-* SLACK, STACKOVERFLOW, YOUTUBE, GOOGLE - for help with troubleshooting errors
+* SLACK, STACKOVERFLOW, YOUTUBE, GOOGLE, W3C Schools - for help with troubleshooting errors
+* COOLORS.CO - to check colour contrast
 
 <br>
 <br>
