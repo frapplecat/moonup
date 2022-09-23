@@ -76,11 +76,12 @@ and can be enjoyed just by eye or a standard pair of binoculars. However they've
 
 ## KEY INFO
 * Tell the user about MOONup
-* Find about how to take part
-* Find out about various upcoming events. What type of event, when and where they take place
+* How to take part
+* Upcoming events. What type of event, when and where they take place
 * How to get to the event sites
-* Sign-up to the MOONup newsletter or add astro-photography or event photos to the moonshots gallery
-* A contact page for any queries
+* Sign-up to the MOONup newsletter
+* Add astro-photography or event photos to the moonshots gallery
+* Contact with any queries
 * Links to social media feeds
 
 ## USER STORIES
