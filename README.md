@@ -135,7 +135,9 @@ I wanted to keep a simple, clean layout. I removed some headings above the fold 
 * Yellow and bold on hover.
 
 ## MOBILE
-![hamburger](readme-images/nav-hamburger-menu.png) <br>
+![hamburger](readme-images/nav-hamburger-menu.png)
+![hamburger](readme-images/hamburger-closed.png)
+![hamburger](readme-images/hamburger-open.png)
 * Collapses to hamburger menu at smaller sizes.
 
 ## FOOTER
@@ -147,6 +149,7 @@ I wanted to keep a simple, clean layout. I removed some headings above the fold 
 * All open in new windows.
 
 ![back to top](readme-images/back-to-top.png)
+![back to top](readme-images/footer-back-to-top.png)
 * Added a Back To Top link above the footer.
 
 <br>
@@ -155,7 +158,7 @@ I wanted to keep a simple, clean layout. I removed some headings above the fold 
 
 # MOONWATCH PAGE
 
-![moon-watch page](readme-images/moon-watch.png)
+![moonwatch page](readme-images/moonwatch.png)
 
 * To keep the them consistent the moonwatch page is similar in style to the homepage but with a new image and no animation. 
 * Another simple question for the main heading that will lead the viewer to explore the rest of the page.
@@ -166,7 +169,7 @@ I wanted to keep a simple, clean layout. I removed some headings above the fold 
 
 ## ABOUT MOONWATCHES SECTION
 
-![about moon-watch page](readme-images/about-moon-watches.png)
+![about moonwatch page](readme-images/about-moonwatches.png)
 
 * The why, where and how but without being overly complicated. 
 * It will also have information about the upcoming moonwatches. 
@@ -190,6 +193,7 @@ I wanted to keep a simple, clean layout. I removed some headings above the fold 
 # MOONSHOTS PAGE
 
 ![about moonshots page](readme-images/moonshots.png)
+![about moonshots page](readme-images/moonshots-cont.png)
 
 * A gallery style page that will expand over time when attendees send in their own images after events are completed. 
 
@@ -200,7 +204,7 @@ I wanted to keep a simple, clean layout. I removed some headings above the fold 
 
 # SIGN UP PAGE
 
-![sign up page](readme-images/sign-up.png)
+![sign up page](readme-images/sign-up-page.png)
 
 * This page is where people will sign up to the MOONup newsletter so they can be notified of all the latest events and see photos and details of previous events. 
 * As well as signing-up the user can also upload any images for the Moonshots gallery. 
