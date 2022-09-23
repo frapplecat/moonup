@@ -6,7 +6,11 @@
 <br>
 <br>
 
+- [ABOUT MOONUP](#aboutmoonup)
 - [INITIAL WIREFRAMES](#initial-wireframes)
+- [UX (USER-EXPERIENCE)](#ux-user-experience)
+  * [KEY INFO](#key-info)
+  * [USER STORIES](#user-stories)
 - [WEBSITE OVERVIEW](#website-overview)
 - [LOGO & HEADINGS](#logo---headings)
 - [HOMEPAGE](#homepage)
@@ -16,6 +20,7 @@
   * [DESKTOP](#desktop)
   * [MOBILE](#mobile)
   * [FOOTER](#footer)
+  * [FAVICON](#favicon)
 - [MOONWATCH PAGE](#moonwatch-page)
   * [ABOUT MOONWATCHES SECTION](#about-moonwatches-section)
   * [MOON PHASES SECTION](#moon-phases-section)
@@ -62,6 +67,42 @@ and can be enjoyed just by eye or a standard pair of binoculars. However they've
 
 ![Balsamiq desktop wireframe screenshots](readme-images/desktop-wireframe.png)
 ![Balsamiq mobile wireframe screenshots](readme-images/mobile-wireframe.png)
+
+<br>
+<br>
+<br>
+
+# UX (USER-EXPERIENCE)
+
+## KEY INFO
+* Tell the user about MOONup
+* Find about how to take part
+* Find out about various upcoming events. What type of event, when and where they take place
+* How to get to the event sites
+* Sign-up to the MOONup newsletter or add astro-photography or event photos to the moonshots gallery
+* A contact page for any queries
+* Links to social media feeds
+
+## USER STORIES
+
+### VISITOR GOALS
+* For the site to be easily navigable and look appealing on a range of screen sizes and devices
+* To make it easy for people to find out more information about MOONup and what they do
+* For it to be easy to ask questions or find when the next events are on
+
+### FIRST TIME VISITOR GOALS
+
+* I want to be able to find out more about MOONup
+* I want to be able to navigate around the site in a logical way
+* I want to be able to find any social media feeds
+* I want to be able to ask some questions
+* I want to be kept up-to-date on events
+
+### RETURNING VISITOR GOALS
+
+* I want to be able to ask more questions or make suggestions
+* I want to be kept up-to-date on events
+* I want to upload some photos to the moonshots gallery
 
 <br>
 <br>
@@ -151,6 +192,10 @@ I wanted to keep a simple, clean layout. I removed some headings above the fold 
 ![back to top](readme-images/back-to-top.png)
 ![back to top](readme-images/footer-back-to-top.png)
 * Added a Back To Top link above the footer.
+
+## FAVICON
+
+![favicon](readme-images/moonup-favicon.png)
 
 <br>
 <br>
@@ -255,31 +300,10 @@ I wanted to keep a simple, clean layout. I removed some headings above the fold 
 # RESPONSIVENESS 
 
 ![responsiveness1](readme-images/responsive-mobile-screenshot1.png)
-
-<br>
-<br>
-<br>
-
 ![responsiveness2](readme-images/responsive-mobile-screenshot2.png)
-
-<br>
-<br>
-<br>
-
 ![responsiveness3](readme-images/responsive-mobile-screenshot3.png)
-
-<br>
-<br>
-<br>
-
 ![responsiveness4](readme-images/responsive-mobile-screenshot4.png)
-
-<br>
-<br>
-<br>
-
 ![responsiveness5](readme-images/responsive-mobile-screenshot5.png)
-
 
 * screenshots for widths 360px, 375px, 390px, 412px, 600px, 820px, 912px & 1280px (Samsung Galaxy S8+, iPhone SE, iPhone12 Pro, Galaxy S20 Ultra, Blackberry PlayBook, iPad Air, Surface Pro7 & Nest Hub Max)
 
@@ -287,10 +311,30 @@ I wanted to keep a simple, clean layout. I removed some headings above the fold 
 <br>
 <br>
 
-# LANGUAGES USED
+# TECHNOLOGIES USED
+
+## LANGUAGES USED
 
 * HTML
 * CSS
+* MARKDOWN
+
+## FRAMEWORKS, LIBRARIES & PROGRAMS USED
+
+* BALSAMIQ - to create wireframe website mockups
+* GITPOD - to create the website and version control
+* GITHUB - to save and store the files for the website
+* ADOBE ILLUSTRATOR - to create the logo and various headings
+* AM I RESPONSIVE - to display the website on a range of devices
+* FONT AWESOME - for icons
+* FAVICON.IO -  to create a favicon
+* CONVERTIO.CO - to change jpgs to webp format
+* BULK RESIZE PHOTOS - to resize webp images
+* PEXELS.COM - for stock images
+* PIXABAY.COM - for stock images
+* GOOGLE DEV TOOLS - for troubleshooting and testing fixes
+* W3C HTML & CSS VALIDATORS - to test HTML and CSS code
+* SLACK, STACKOVERFLOW, YOUTUBE, GOOGLE - for help with troubleshooting errors
 
 <br>
 <br>
@@ -398,7 +442,9 @@ max-height query in question to compensate.
 # CREDITS
 
 * Thanks to Code Institute Tutors Oisin and Scott for their advice on a couple of issues.
+* Thanks to Kera Cudmore for her talk on creating README files
 * Big thank you to my CI Mentor, Mitko Bachvarov, for his support, excellent advice and eagle eye for detail.
+
 
 
 <br>
