@@ -31,7 +31,8 @@
 - [RESPONSIVENESS](#responsiveness)
 - [LANGUAGES USED](#languages-used)
 - [VALIDATOR TESTING](#validator-testing)
-  * [HTML-CSS](#html-css)
+  * [HTML](#html)
+  * [CSS](#css)
   * [LIGHTHOUSE](#lighthouse)
   * [COLOUR](#colour)
 - [BUGS](#bugs)
@@ -347,11 +348,15 @@ I wanted to keep a simple, clean layout. I removed some headings above the fold 
 
 # VALIDATOR TESTING
 
-## HTML-CSS
+## HTML
 
-![html-css-validator](readme-images/html-css-validation.png)
+![html-validator](readme-images/html-validation.png)
 
 * No errors were returned when passing through the official W3C validator.
+
+## CSS
+
+![css-validator](readme-images/css-validation.png)
 * No errors were found when passing through the official (Jigsaw) validator
 
 <br>
@@ -364,6 +369,10 @@ I wanted to keep a simple, clean layout. I removed some headings above the fold 
 ![lighthouse](readme-images/lighthouse2.png)
 ![lighthouse](readme-images/lighthouse3.png)
 ![lighthouse](readme-images/lighthouse4.png)
+![lighthouse](readme-images/lighthouse5.png)
+![lighthouse](readme-images/lighthouse6.png)
+![lighthouse](readme-images/lighthouse7.png)
+![lighthouse](readme-images/lighthouse8.png)
 
 <br>
 <br>
