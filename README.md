@@ -339,6 +339,7 @@ I wanted to keep a simple, clean layout. I removed some headings above the fold 
 * SLACK, STACKOVERFLOW, YOUTUBE, GOOGLE, W3C Schools - for help with troubleshooting errors
 * COOLORS.CO - to check colour contrast
 * W3C SPELL CHECKER - to check website spelling
+* CLOUDCONVERT.COM - to change mp4 to gif for README
 
 <br>
 <br>
@@ -428,14 +429,17 @@ max-height query in question to compensate.
 
 # DEPLOYMENT
 
+![deployment](assets/images/moonupdeployment.gif)
+
 * The site was deployed to GitHub pages<br>
 
 * The steps to deploy are as follows:
-* Go to GitHub repository
+* Go to GitHub and select the repository for the project
 * Navigate to the Settings tab
-* Select source section drop-down menu
-* Select the Master Branch
-* Once the master branch has been selected, the page will be automatically refreshed 
+* Select Pages from the left hand navigation window
+* Select deploy from a branch under the source drop-down menu
+* Select main from the branch dropdown menu and press save
+* The site has now been deployed but please note that the process may take a few minutes before the site goes live
 * A detailed ribbon display will indicate the successful deployment.
 * The live link can be found here:
 
