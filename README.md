@@ -49,6 +49,7 @@
   * [CENTERING ISSUE](#centering-issue)
   * [TABLE OF CONTENTS](#table-of-contents)
   * [PLACEHOLDER](#placeholder)
+  * [LANDSCAPE MOBILE FORMAT](#landscapemobileformat)
 - [MEDIA](#media)
 
 <br>
@@ -522,6 +523,10 @@ https://medium.com/swlh/how-well-do-you-know-css-52290217ff6e
 ## PLACEHOLDER
 Changed the colour of the placeholder using some code from w3schools, adapted to suit my colour palette.
 https://www.w3schools.com/howto/howto_css_placeholder.asp
+
+## LANDSCAPE MOBILE FORMAT
+* Home and moonwatch opening pages didn't work well when small mobile screen sizes were in landscape format. Created media query to compensate.
+
 
 <br>
 <br>
