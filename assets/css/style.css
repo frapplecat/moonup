@@ -376,7 +376,8 @@ em {
 }
 
 
-.block-100>a>h3:hover {
+.block-100>a>h3:hover,
+.block-100>a>h3:focus {
     color: rgb(250, 200, 5);
     font-weight: bold;
 }
@@ -703,7 +704,8 @@ footer {
     color: #fff;
 }
 
-.social-networks i:hover {
+.social-networks i:hover,
+.social-networks i:focus {
     color: rgb(250, 200, 5);
 }
 
@@ -733,7 +735,8 @@ footer {
     background: transparent;
 }
 
-.send-button:hover {
+.send-button:hover,
+.send-button:focus {
     background-color: rgb(250, 200, 5);
     color: black;
 }
@@ -800,7 +803,8 @@ footer {
     padding: 0 10px;
 }
 
-.text-input:hover {
+.text-input:hover,
+.text-input:focus {
     border-color: rgb(250, 200, 5);
 }
 
@@ -823,7 +827,8 @@ footer {
     background: transparent;
 }
 
-.join-button:hover {
+.join-button:hover,
+.join-button:focus {
     background-color: rgb(250, 200, 5);
     color: black;
 }
@@ -840,7 +845,8 @@ footer {
     display: block;
 }
 
-.choosefile:hover {
+.choosefile:hover,
+.choosefile:focus {
     border-color: rgb(250, 200, 5);
 }
 
@@ -868,7 +874,8 @@ footer {
     text-decoration: none;
 }
 
-.thanks-block-100>a>h3:hover {
+.thanks-block-100>a>h3:hover,
+.thanks-block-100>a>h3:focus {
     color: rgb(250, 200, 5);
     font-weight: bold;
 }
