@@ -365,14 +365,14 @@ I wanted to keep a simple, clean layout. I removed some headings above the fold 
 
 ## LIGHTHOUSE
 
-![lighthouse](readme-images/lighthouse1.png)
-![lighthouse](readme-images/lighthouse2.png)
-![lighthouse](readme-images/lighthouse3.png)
-![lighthouse](readme-images/lighthouse4.png)
-![lighthouse](readme-images/lighthouse5.png)
-![lighthouse](readme-images/lighthouse6.png)
-![lighthouse](readme-images/lighthouse7.png)
-![lighthouse](readme-images/lighthouse8.png)
+![lighthouse](readme-images/moonup-lighthouse1.png)
+![lighthouse](readme-images/moonup-lighthouse2.png)
+![lighthouse](readme-images/moonup-lighthouse3.png)
+![lighthouse](readme-images/moonup-lighthouse4.png)
+![lighthouse](readme-images/moonup-lighthouse5.png)
+![lighthouse](readme-images/moonup-lighthouse6.png)
+![lighthouse](readme-images/moonup-lighthouse7.png)
+![lighthouse](readme-imagesmoonup-/lighthouse8.png)
 
 <br>
 <br>
