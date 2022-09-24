@@ -161,7 +161,8 @@ h2 {
     }
 }
 
-.homepage-moon-circle {
+.homepage-moon-circle,
+.moonwatch-circle {
     color: #3a3a3a;
     text-transform: uppercase;
     padding: 15px;
@@ -181,29 +182,35 @@ h2 {
     position: absolute;
 }
 
-.homepage-moon-circle>h1 {
+.homepage-moon-circle>h1,
+.moonwatch-circle>h1 {
     color: #3a3a3a;
     font-size: 450%;
     top: 0;
 }
 
-.homepage-moon-circle>h2 {
+.homepage-moon-circle>h2,
+.moonwatch-circle>h2 {
     color: #3a3a3a;
     font-size: 200%;
     padding-top: 25px;
 }
 
-.homepage-moon-circle>h2>a {
+.homepage-moon-circle>h2>a,
+.moonwatch-circle>h2>a {
     color: #3a3a3a;
     text-decoration: none;
 }
 
-.homepage-moon-circle>h2>a:visited {
+.homepage-moon-circle>h2>a:visited,
+.moonwatch-circle>h2>a:visited {
     color: rgb(119, 96, 2);
 }
 
 .homepage-moon-circle>h2>a:hover,
-.homepage-moon-circle>h2>a:focus {
+.homepage-moon-circle>h2>a:focus,
+.moonwatch-circle>h2>a:hover,
+.moonwatch-circle>h2>a:focus {
     color: #fff;
 }
 
@@ -1066,17 +1073,20 @@ footer {
 /* media queries max-width: 600px */
 
 @media screen and (max-width: 600px) {
-    .homepage-moon-circle {
+    .homepage-moon-circle,
+    .moonwatch-circle {
         font-size: 250%;
         width: 450px;
         height: 450px;
     }
 
-    .homepage-moon-circle>h1 {
+    .homepage-moon-circle>h1,
+    .moonwatch-circle>h1 {
         font-size: 150%;
     }
 
-    .homepage-moon-circle>h2 {
+    .homepage-moon-circle>h2,
+    .moonwatch-circle>h2 {
         font-size: 60%;
     }
 
@@ -1126,7 +1136,8 @@ footer {
 /* media queries max-width: 500px */
 
 @media screen and (max-width: 500px) {
-    .homepage-moon-circle {
+    .homepage-moon-circle,
+    .moonwatch-circle {
         font-size: 225%;
         width: 400px;
         height: 400px;
@@ -1143,7 +1154,8 @@ footer {
 
 
 @media screen and (max-width: 450px) {
-    .homepage-moon-circle {
+    .homepage-moon-circle,
+    .moonwatch-circle {
         font-size: 200%;
         width: 350px;
         height: 350px;
@@ -1216,17 +1228,20 @@ footer {
 /* media queries max-width: 390px */
 
 @media screen and (max-width: 390px) {
-    .homepage-moon-circle {
+    .homepage-moon-circle,
+    .moonwatch-circle {
         font-size: 175%;
         width: 300px;
         height: 300px;
     }
 
-    .homepage-moon-circle>h1 {
+    .homepage-moon-circle>h1,
+    .moonwatch-circle>h1 {
         font-size: 150%;
     }
 
-    .homepage-moon-circle>h2 {
+    .homepage-moon-circle>h2,
+    .moonwatch-circle>h2 {
         font-size: 60%;
         padding-top: 10px;
     }
@@ -1266,4 +1281,49 @@ footer {
         top: 51%;
     }
 
+}
+
+/* media queries mobile landscape */
+
+@media screen and (max-height: 425px) and (min-aspect-ratio: 7/4) {
+
+    .homepage-moon-circle {
+        font-size: 45%;
+        width: 250px;
+        height: 250px;
+        top: 10%;
+    }
+
+    .homepage-moon-box {
+        height: 350px;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        background-color: black;
+    }
+
+    .homepage-moon {
+        height: 350px;
+
+    }
+
+    .moonwatch-circle {
+        font-size: 45%;
+        width: 250px;
+        height: 250px;
+        top: 25%;
+    }
+
+    .mw-info-wrapper {
+        padding: 30px 30px 100px;
+        width: 100%;
+        height: 350px;
+        background-color: #3a3a3a;
+        text-align: center;
+        background: url(../images/detailed-moon-image-nasa.webp) no-repeat center center;
+        background-size: cover;
+    
+    }
+
+    
 }
