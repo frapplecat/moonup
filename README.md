@@ -12,6 +12,9 @@
   * [KEY INFO](#key-info)
   * [USER STORIES](#user-stories)
 - [WEBSITE OVERVIEW](#website-overview)
+- [WEBSITE SCROLL THROUGH](#website-scroll-through)
+  * [DESKTOP EXAMPLE](#desktop-example)
+  * [MOBILE EXAMPLE](#mobile-example)
 - [LOGO & HEADINGS](#logo---headings)
 - [HOMEPAGE](#homepage)
   * [ABOUT MOONUP SECTION](#about-moonup-section)
@@ -372,7 +375,7 @@ I wanted to keep a simple, clean layout. I removed some headings above the fold 
 ![lighthouse](readme-images/moonup-lighthouse5.png)
 ![lighthouse](readme-images/moonup-lighthouse6.png)
 ![lighthouse](readme-images/moonup-lighthouse7.png)
-![lighthouse](readme-imagesmoonup-/lighthouse8.png)
+![lighthouse](readme-images/moonup-lighthouse8.png)
 
 <br>
 <br>
