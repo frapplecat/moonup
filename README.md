@@ -54,9 +54,9 @@
 # ABOUT MOONup
 
 MOONup is a website created for a small group of amateur astronomers based in Cork city who wish to share their knowledge with as wide a range of people as possible. 
-Astromomy can be appear intimidating to a novice, they'd like to change that.
-They're focused on the moon because, as our nearest celestial neighbour, it's something everyone is familiar with, it's visible from most sites thoughout the year
-and can be enjoyed just by eye or a standard pair of binoculars. However they've found that the moon can be taken for granted, even by people who already have a passing interest in the night sky, but it deosn't take much to change that mindset. When viewed through a telescope the usual response is just: WOW! The aim of the website is to develop a community, build-up numbers and get lots of sign-ups to the newsletter. Over time the moonshots page will contain more pictures from attendees and from the various moonwatches, meet-ups and other events.
+Astronomy can be appear intimidating to a novice, they'd like to change that.
+They're focused on the moon because, as our nearest celestial neighbour, it's something everyone is familiar with, it's visible from most sites throughout the year
+and can be enjoyed just by eye or a standard pair of binoculars. However they've found that the moon can be taken for granted, even by people who already have a passing interest in the night sky, but it doesn't take much to change that mindset. When viewed through a telescope the usual response is just: WOW! The aim of the website is to develop a community, build-up numbers and get lots of sign-ups to the newsletter. Over time the moonshots page will contain more pictures from attendees and from the various moonwatches, meet-ups and other events.
 
 <br>
 <br>
@@ -80,7 +80,7 @@ and can be enjoyed just by eye or a standard pair of binoculars. However they've
 * Upcoming events. What type of event, when and where they take place
 * How to get to the event sites
 * Sign-up to the MOONup newsletter
-* Add astro-photography or event photos to the moonshots gallery
+* Add astrophotography or event photos to the moonshots gallery
 * Contact with any queries
 * Links to social media feeds
 
@@ -139,7 +139,7 @@ I wanted to keep a simple, clean layout. I removed some headings above the fold 
 ![homepage](readme-images/homepage.png)
 
 * The main page is an image of a full moon, animated so it zooms in to tie-in with the main heading's simple question that will hopefully intrigue and get the viewer to explore the rest of the page.
-* The main heading is in a circular container to keep with the moon theme and the yellow is eyecatching against the white/grey/black lunar colour scheme.
+* The main heading is in a circular container to keep with the moon theme and the yellow is eye-catching against the white/grey/black lunar colour scheme.
 
 <br>
 <br>
@@ -186,7 +186,7 @@ I wanted to keep a simple, clean layout. I removed some headings above the fold 
 
 ![footer](readme-images/footer.png)
 
-* Twitter, Facebook, Instagram, Youtube in the footer along with a contact us link. 
+* Twitter, Facebook, Instagram, YouTube in the footer along with a contact us link. 
 * Turns yellow on hover.
 * All open in new windows.
 
@@ -274,7 +274,7 @@ I wanted to keep a simple, clean layout. I removed some headings above the fold 
 
 ![contact us page](readme-images/contactus.png)
 
-* Nested in the footer with the scoial media links is a contact us link. 
+* Nested in the footer with the social media links is a contact us link. 
 * Opens in a new page.
 * Contains a text area for any questions or messages the user may have for MOONup.
 
@@ -291,7 +291,7 @@ I wanted to keep a simple, clean layout. I removed some headings above the fold 
 
 ![maps page](readme-images/maps.png)
 
-* Just some embedded google maps showing the 2 main locations used for observing.
+* Just some embedded Google maps showing the 2 main locations used for observing.
 * Not a page in the navigation bar but has links to get you back to the main content.
 
 <br>
@@ -326,6 +326,7 @@ I wanted to keep a simple, clean layout. I removed some headings above the fold 
 * GITPOD - to create the website and version control
 * GITHUB - to save and store the files for the website
 * ADOBE ILLUSTRATOR - to create the logo and various headings
+* ADOBE INDESIGN - ran the readme text through InDesign's spellchecker
 * AM I RESPONSIVE - to display the website on a range of devices
 * FONT AWESOME - for icons
 * FAVICON.IO -  to create a favicon
@@ -337,6 +338,7 @@ I wanted to keep a simple, clean layout. I removed some headings above the fold 
 * W3C HTML & CSS VALIDATORS - to test HTML and CSS code
 * SLACK, STACKOVERFLOW, YOUTUBE, GOOGLE, W3C Schools - for help with troubleshooting errors
 * COOLORS.CO - to check colour contrast
+* W3C SPELL CHECKER - to check website spelling
 
 <br>
 <br>
@@ -389,7 +391,7 @@ Viewed using Chrome on iMac.
 
 ![font smoothing](readme-images/font-smoothing-chrome.png)
 
-* As of June 23, 2020, all major browsers — Chrome, Edge, Firefox & Safari (14+) — support the WebP format but I've noticed that it doesn't work on older verions of MacOs/Safari. I was going to try and set up a fallback using jpgs for these older OSs. The picture tag was reccommended as a solution e.g.
+* As of June 23, 2020, all major browsers — Chrome, Edge, Firefox & Safari (14+) — support the WebP format but I've noticed that it doesn't work on older versions of MacOs/Safari. I was going to try and set up a fallback using jpgs for these older OSs. The picture tag was recommended as a solution e.g.
 
         <picture>
             <source type="image/webp" srcset="assets/images/full-moon-silhouetted-branches-david-dibert 720px.webp">
@@ -415,7 +417,7 @@ https://medium.com/swlh/how-well-do-you-know-css-52290217ff6e
 https://www.w3schools.com/howto/howto_css_placeholder.asp
 
 * Couldn't get signup page to fit neatly on a range of mobile screens. I was trying to eliminate the need for much if any scrolling to the footer by using max-width queries.
-Added max-height queries to help resolve it. It worked but led to the form position movinga fraction and overlaying the logo slightly. Add a small position change to the
+Added max-height queries to help resolve it. It worked but led to the form position moving a fraction and overlaying the logo slightly. Add a small position change to the
 max-height query in question to compensate.
 
 * Used <em></em> tags to highlight some links within para content, noticed they weren't working on certain browsers. Applied em {font-style: italic;} in CSS to correct.
@@ -443,7 +445,7 @@ max-height query in question to compensate.
 
 # CREDITS
 
-* Thanks to Code Institute Tutors Oisin and Scott for their advice on a couple of issues.
+* Thanks to Code Institute Tutors Oisín and Scott for their advice on a couple of issues.
 * Thanks to Kera Cudmore for her talk on creating README files
 * Big thank you to my CI Mentor, Mitko Bachvarov, for his support, excellent advice and eagle eye for detail.
 
@@ -472,7 +474,7 @@ for pointing me in that direction to fix a centering issue.
 ## HAMBURGER MENU CODE
 https://alvarotrigo.com/blog/hamburger-menu-css/
 
-* This was an excellent run-through of various style and options. I adpated one of them so it extended a bit further into the page and didn't partially block my logo
+* This was an excellent run-through of various style and options. I adapted one of them so it extended a bit further into the page and didn't partially block my logo
 Also amended the colours and removed some lines.
 
 ## WHITE TEXT APPEARS BOLDER
