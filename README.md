@@ -125,6 +125,15 @@ I wanted to keep a simple, clean layout. I removed some headings above the fold 
 <br>
 <br>
 
+# WEBSITE SCROLL THROUGH
+
+![desktop website scroll through](readme-images/moonup-desktop-scroll-through.gif)
+![mobile website scroll through](readme-images/moonup-mobile-scroll-through.gif)
+
+<br>
+<br>
+<br>
+
 # LOGO & HEADINGS
 * I created the logo and headings in Adobe Illustrator, outlined the Rubik Moonrocks font, and exported as .svg
 
