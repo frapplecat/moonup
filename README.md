@@ -50,6 +50,7 @@
   * [TABLE OF CONTENTS](#table-of-contents)
   * [PLACEHOLDER](#placeholder)
   * [LANDSCAPE MOBILE FORMAT](#landscapemobileformat)
+  * [CSS ISSUE](#cssissue)
 - [MEDIA](#media)
 
 <br>
@@ -537,6 +538,9 @@ https://www.w3schools.com/howto/howto_css_placeholder.asp
 
 ## LANDSCAPE MOBILE FORMAT
 * Home and moonwatch opening pages didn't work well when small mobile screen sizes were in landscape format. Created media query to compensate.
+
+## CSS ISSUE
+* After deployment, I could see the CSS wasn't applying on certain pages. I'd used absolute instead of relative paths, change the paths to fix the problem.
 
 
 <br>
