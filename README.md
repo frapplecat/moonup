@@ -128,7 +128,7 @@ I wanted to keep a simple, clean layout. I removed some headings above the fold 
 # WEBSITE SCROLL THROUGH
 
 ![desktop](readme-images/moonup-desktop-scroll-through.gif)
-![mobile](readme-images/moonup-mobile-scroll-through.gif)
+![mobile](readme-images/moonup-mobile-scroll-through-resized.gif)
 
 <br>
 <br>
