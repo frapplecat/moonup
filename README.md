@@ -357,6 +357,7 @@ I wanted to keep a simple, clean layout. I removed some headings above the fold 
 * W3C SPELL CHECKER - to check website spelling
 * FREECONVERT.COM - to compress mp4
 * EZGIF.COM - to convert compressed mp4 to gif for README
+* RECORD IT PRO - for screen-capturing video and converting mp4 to gif
 
 <br>
 <br>
@@ -454,7 +455,7 @@ max-height query in question to compensate.
 
 # DEPLOYMENT
 
-![deployment](assets/images/moonupdeployment.gif)
+![deployment](readme-images/moonup-deployment-method.gif)
 
 * The site was deployed to GitHub pages<br>
 
@@ -462,11 +463,11 @@ max-height query in question to compensate.
 * Go to GitHub and select the repository for the project
 * Navigate to the Settings tab
 * Select Pages from the left hand navigation window
-* Select deploy from a branch under the source drop-down menu
-* Select main from the branch dropdown menu and press save
-* The site has now been deployed but please note that the process may take a few minutes before the site goes live
-* A detailed ribbon display will indicate the successful deployment.
-* The live link can be found here:
+* Select Deploy from a branch under the source drop-down menu
+* Select main from the Branch dropdown menu
+* Make sure the /root folder is selected and press save
+* The site has now been deployed, it may take a few minutes before it is live
+* Here is the deployed link: https://frapplecat.github.io/moonup/
 
 <br>
 <br>
