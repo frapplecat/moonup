@@ -12,9 +12,9 @@
   * [KEY INFO](#key-info)
   * [USER STORIES](#user-stories)
 - [WEBSITE OVERVIEW](#website-overview)
-- [WEBSITE SCROLL THROUGH](#website-scroll-through)
-  * [DESKTOP](#desktop)
-  * [MOBILE](#mobile)
+- [WEBSITE SCROLL-THROUGH](#website-scroll-through)
+  * [DESKTOP SCROLL-THROUGH](#desktop-scroll-through)
+  * [MOBILE SCROLL-THROUGH](#mobile-scroll-through)
 - [LOGO & HEADINGS](#logo---headings)
 - [HOMEPAGE](#homepage)
   * [ABOUT MOONUP SECTION](#about-moonup-section)
@@ -127,8 +127,8 @@ I wanted to keep a simple, clean layout. I removed some headings above the fold 
 
 # WEBSITE SCROLL THROUGH
 
-![desktop](readme-images/moonup-desktop-scroll-through.gif)
-![mobile](readme-images/moonup-mobile-scroll-through-resized.gif)
+![desktop](readme-images/moonup-desktop-scroll-through-compressed-ezgif.gif)
+![mobile](readme-images/moonup-mobile-scroll-through-compressed-ezgif.gif)
 
 <br>
 <br>
@@ -353,7 +353,8 @@ I wanted to keep a simple, clean layout. I removed some headings above the fold 
 * SLACK, STACKOVERFLOW, YOUTUBE, GOOGLE, W3C Schools - for help with troubleshooting errors
 * COOLORS.CO - to check colour contrast
 * W3C SPELL CHECKER - to check website spelling
-* CLOUDCONVERT.COM - to change mp4 to gif for README
+* FREECONVERT.COM - to compress mp4
+* EZGIF.COM - to convert compressed mp4 to gif for README
 
 <br>
 <br>
