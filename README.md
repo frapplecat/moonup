@@ -475,11 +475,9 @@ max-height query in question to compensate.
 
 # CREDITS
 
-* Thanks to Code Institute Tutors Oisín and Scott for their advice on a couple of issues.
-* Thanks to Kera Cudmore for her talk on creating README files
+* Thanks to the Code Institute Tutors who helped me. Oisín and Scott for their advice on a couple of issues and Ger for fixing a Gitpod/Github sync problem.
+* Thanks to Kera Cudmore for her talk and pointers on creating README files.
 * Big thank you to my CI Mentor, Mitko Bachvarov, for his support, excellent advice and eagle eye for detail.
-
-
 
 <br>
 <br>
