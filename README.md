@@ -13,8 +13,8 @@
   * [USER STORIES](#user-stories)
 - [WEBSITE OVERVIEW](#website-overview)
 - [WEBSITE SCROLL THROUGH](#website-scroll-through)
-  * [DESKTOP EXAMPLE](#desktop-example)
-  * [MOBILE EXAMPLE](#mobile-example)
+  * [DESKTOP](#desktop)
+  * [MOBILE](#mobile)
 - [LOGO & HEADINGS](#logo---headings)
 - [HOMEPAGE](#homepage)
   * [ABOUT MOONUP SECTION](#about-moonup-section)
@@ -127,8 +127,8 @@ I wanted to keep a simple, clean layout. I removed some headings above the fold 
 
 # WEBSITE SCROLL THROUGH
 
-![desktop website scroll through](readme-images/moonup-desktop-scroll-through.gif)
-![mobile website scroll through](readme-images/moonup-mobile-scroll-through.gif)
+![desktop](readme-images/moonup-desktop-scroll-through.gif)
+![mobile](readme-images/moonup-mobile-scroll-through.gif)
 
 <br>
 <br>
