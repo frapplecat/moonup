@@ -138,7 +138,7 @@ h2 {
     width: 100%;
     overflow: hidden;
     position: relative;
-    background-color: black;
+    background-color: #3a3a3a;
 }
 
 .homepage-moon {
@@ -306,10 +306,10 @@ em {
 .info-wrapper {
     padding: 30px;
     width: 100%;
-    background-color: #3a3a3a;
     text-align: center;
     background: url(../images/half-moon-clouds-in-foreground-chuck-johnson.webp) no-repeat center center;
     background-size: cover;
+    background-color: #3a3a3a;
 
 }
 
@@ -470,10 +470,10 @@ em {
     padding: 30px 30px 100px;
     width: 100%;
     height: 1100px;
-    background-color: #3a3a3a;
     text-align: center;
     background: url(../images/detailed-moon-image-nasa.webp) no-repeat center center;
     background-size: cover;
+    background-color: #3a3a3a;
 
 }
 
@@ -1247,18 +1247,17 @@ footer {
     }
 
     .wrapper>div>img {
-        width: 300px;
+        width: 270px;
         padding: 0;
     }
 
-}
-
-@media screen and (max-width: 390px) {
     .mw-info-wrapper-bkg>h2 {
         line-height: 35px;
         padding: 15px;
     }
+
 }
+
 
 /* media queries max-height: 850px */
 
