@@ -1,6 +1,6 @@
 ![MOONup Logo](readme-images/moonup-logo.png)
 
-![Am I Responsive screenshots](readme-images/am-i-responnsive-screenshot.png)
+![Am I Responsive screenshots](readme-images/moonup-am-I-responsive.png)
 
 <br>
 <br>
@@ -32,13 +32,17 @@
 - [CONTACT US POP-UP](#contact-us-pop-up)
 - [MAPS PAGE](#maps-page)
 - [RESPONSIVENESS](#responsiveness)
-- [LANGUAGES USED](#languages-used)
+- [TECHNOLOGIES USED](#technologies-used)
+  * [LANGUAGES](#languages)
+  * [FRAMEWORKS, LIBRARIES & PROGRAMS USED](#frameworks-libraries-programs-used)
 - [VALIDATOR TESTING](#validator-testing)
   * [HTML](#html)
   * [CSS](#css)
   * [LIGHTHOUSE](#lighthouse)
   * [COLOUR](#colour)
+- [MANUAL TESTING](#manualtesting)
 - [BUGS](#bugs)
+- [KNOWN ISSUES](#known-issues)
 - [DEPLOYMENT](#deployment)
 - [CREDITS](#credits)
 - [CONTENT](#content)
@@ -119,7 +123,6 @@ and can be enjoyed just by eye or a standard pair of binoculars. However they've
 I wanted to keep a simple, clean layout. I removed some headings above the fold section from my original wireframes as I thought it looked too busy on the page, especially when I started resizing to mobile screen sizes. I chose a colour scheme that complemented the lunar theme with whites and greys mainly but with a yellow, from the occasional yellow moon, to add a splash of colour and interest. This signature colour could be easily changed to suit any unusual lunar activity throughout the year e.g. when there's a blue or red moon.
 
 ![colour scheme change screenshot1](readme-images/blue-moon-example.png)
-
 ![colour scheme change screenshot2](readme-images/blood-moon-example.png)
 
 <br>
@@ -129,9 +132,9 @@ I wanted to keep a simple, clean layout. I removed some headings above the fold 
 # WEBSITE SCROLL-THROUGH
 
 ## DESKTOP SCROLL-THROUGH
-![desktop](readme-images/moonup-desktop-scroll-through.gif)
+![desktop](readme-images/moon-up-desktop-scrollthrough.gif)
 ## MOBILE SCROLL-THROUGH
-![mobile](readme-images/moonup-mobile-scroll-through.gif)
+![mobile](readme-images/moonup-mobile-scrollthrough.gif)
 
 <br>
 <br>
@@ -153,7 +156,7 @@ I wanted to keep a simple, clean layout. I removed some headings above the fold 
 
 # HOMEPAGE
 
-![homepage](readme-images/homepage.png)
+![homepage](readme-images/moonup-homepage.png)
 
 * The main page is an image of a full moon, animated so it zooms in to tie-in with the main heading's simple question that will hopefully intrigue and get the viewer to explore the rest of the page.
 * The main heading is in a circular container to keep with the moon theme and the yellow is eye-catching against the white/grey/black lunar colour scheme.
@@ -196,7 +199,7 @@ I wanted to keep a simple, clean layout. I removed some headings above the fold 
 ## MOBILE
 ![hamburger](readme-images/nav-hamburger-menu.png)
 ![hamburger](readme-images/hamburger-closed.png)
-![hamburger](readme-images/hamburger-open.png)
+![hamburger](readme-images/hamburger-opened.png)
 * Collapses to hamburger menu at smaller sizes.
 
 ## FOOTER
@@ -221,7 +224,7 @@ I wanted to keep a simple, clean layout. I removed some headings above the fold 
 
 # MOONWATCH PAGE
 
-![moonwatch page](readme-images/moonwatch.png)
+![moonwatch page](readme-images/moonwatch-homepage.png)
 
 * To keep the them consistent the moonwatch page is similar in style to the homepage but with a new image and no animation. 
 * Another simple question for the main heading that will lead the viewer to explore the rest of the page.
@@ -255,7 +258,7 @@ I wanted to keep a simple, clean layout. I removed some headings above the fold 
 
 # MOONSHOTS PAGE
 
-![about moonshots page](readme-images/moonshots.png)
+![about moonshots page](readme-images/moonup-moonshots.png)
 ![about moonshots page](readme-images/moonshots-cont.png)
 
 * A gallery style page that will expand over time when attendees send in their own images after events are completed. 
@@ -267,7 +270,7 @@ I wanted to keep a simple, clean layout. I removed some headings above the fold 
 
 # SIGN UP PAGE
 
-![sign up page](readme-images/sign-up-page.png)
+![sign up page](readme-images/moonup-sign-up-page.png)
 
 * This page is where people will sign up to the MOONup newsletter so they can be notified of all the latest events and see photos and details of previous events. 
 * As well as signing-up the user can also upload any images for the Moonshots gallery. 
@@ -306,7 +309,7 @@ I wanted to keep a simple, clean layout. I removed some headings above the fold 
 
 # MAPS Page
 
-![maps page](readme-images/maps.png)
+![maps page](readme-images/moonup-maps.png)
 
 * Just some embedded Google maps showing the 2 main locations used for observing.
 * Not a page in the navigation bar but has links to get you back to the main content.
@@ -407,7 +410,30 @@ https://coolors.co/contrast-checker/112a46-acc8e5
 <br>
 <br>
 
+# MANUAL TESTING
+* Manual testing of each section of the site (such as buttons, links etc.)
+* Testing site responsiveness
+
+<br>
+<br>
+<br>
+
 # BUGS
+
+## HAMBURGER MENU
+* Expected - On smaller screens the hamburger menu would appear and give links to the various pages when opened. 
+* Testing - Tested the feature by trying various mobile screen sizes in web dev tools. 
+* Result - Once opened the hambuerger menu links appeared underneath the main background images on each page.
+* Fix - I added a Z-index to the hamburger menu to bring it to a level above the background images.
+
+
+Expected - Feature is expected to do X when the user does Y 
+Testing - Tested the feature by doing Y 
+Result - The feature did not respond due to A,B,C 
+or 
+Result - The feature acted as normally and it did Y 
+Fix - I did Z to the code because something was missing
+
 
 * In the sign-up section the phone number field has a placeholder showing the format required for entry. Had a 3 3 4 ([0-9]{3} [0-9]{3} [0-9]{4}) format initially 
 but on some mobiles the spaces weren't allowed so switched to 0000000000 ([0-9]{10}) instead.
@@ -439,7 +465,6 @@ https://medium.com/swlh/how-well-do-you-know-css-52290217ff6e
 
 * I noticed my MOONup.svg logo wasn't displaying on Firefox and Safari. Fixed by defining the height.
 
-* The hamburger menu was opening underneath the hero images on each page. Fixed by giving a z-index to the item.
 
 * The placeholder text was very faint in some of the fields on the signup page. Changed the colour of the placeholder using some code from w3schools.
 https://www.w3schools.com/howto/howto_css_placeholder.asp
@@ -449,6 +474,20 @@ Added max-height queries to help resolve it. It worked but led to the form posit
 max-height query in question to compensate.
 
 * Used <em></em> tags to highlight some links within para content, noticed they weren't working on certain browsers. Applied em {font-style: italic;} in CSS to correct.
+
+* Home and moonwatch opening pages didn't work well when small mobile screen sizes were in landscape format. Created media query to compensate.
+
+* After deployment, I could see the CSS wasn't applying on certain pages. I'd used absolute instead of relative paths, change the paths to fix the problem.
+
+<br>
+<br>
+<br>
+
+# KNOWN ISSUES
+
+* CSS code
+* Mobile responiveness in landscape
+* webp images in older browsers
 
 <br>
 <br>
@@ -535,12 +574,6 @@ https://medium.com/swlh/how-well-do-you-know-css-52290217ff6e
 ## PLACEHOLDER
 Changed the colour of the placeholder using some code from w3schools, adapted to suit my colour palette.
 https://www.w3schools.com/howto/howto_css_placeholder.asp
-
-## LANDSCAPE MOBILE FORMAT
-* Home and moonwatch opening pages didn't work well when small mobile screen sizes were in landscape format. Created media query to compensate.
-
-## CSS ISSUE
-* After deployment, I could see the CSS wasn't applying on certain pages. I'd used absolute instead of relative paths, change the paths to fix the problem.
 
 
 <br>
