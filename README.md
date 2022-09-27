@@ -1,6 +1,6 @@
 ![MOONup Logo](readme-images/moonup-logo.png)
 
-![Am I Responsive screenshots](readme-images/moonup-am-i-responsive-screenshot.png
+![Am I Responsive screenshots](readme-images/moonup-am-i-responsive-screenshot.png)
 
 <br>
 <br>
