@@ -411,8 +411,9 @@ https://coolors.co/contrast-checker/112a46-acc8e5
 <br>
 
 # MANUAL TESTING
-* Manual testing of each section of the site (such as buttons, links etc.)
-* Testing site responsiveness
+* I manually tested each link
+* I checked responsiveness using web dev tools in Chrome and Firefox.
+* I checked 
 
 <br>
 <br>
@@ -421,63 +422,70 @@ https://coolors.co/contrast-checker/112a46-acc8e5
 # BUGS
 
 ## HAMBURGER MENU
-* Expected - On smaller screens the hamburger menu would appear and give links to the various pages when opened. 
-* Testing - Tested the feature by trying various mobile screen sizes in web dev tools. 
-* Result - Once opened the hambuerger menu links appeared underneath the main background images on each page.
-* Fix - I added a Z-index to the hamburger menu to bring it to a level above the background images.
+* **EXPECTED** - on smaller screens the hamburger menu would appear and give links to the various pages when opened. 
+* **TESTING** - launched website using terminal, tried various mobile screen sizes in web dev tools. 
+* **RESULT** - once opened the hamburger menu links appeared underneath the main background images on each page.
+* **FIX** - I added a Z-index to the hamburger menu to bring it to a level above the background images.
 
+## SIGN-UP PAGE PHONE NUMBER PLACEHOLDER
+* **EXPECTED** - placeholder text to show the required format to enter the phone number. I chose a 3 3 4 number format ([0-9]{3} [0-9]{3} [0-9]{4}) e.g 086 333 4444
+* **TESTING** - launched website using terminal, tested the feature in web dev tools and on an iPhone X and Samsung S8.
+* **RESULT** - I couldn't enter the number as required as there was no option to put spaces between the numbers on the phones I used.
+* **FIX** - I changed the placeholder and required format to 10 digits without spaces ([0-9]{10} instead.
 
-Expected - Feature is expected to do X when the user does Y 
-Testing - Tested the feature by doing Y 
-Result - The feature did not respond due to A,B,C 
-or 
-Result - The feature acted as normally and it did Y 
-Fix - I did Z to the code because something was missing
-
-
-* In the sign-up section the phone number field has a placeholder showing the format required for entry. Had a 3 3 4 ([0-9]{3} [0-9]{3} [0-9]{4}) format initially 
-but on some mobiles the spaces weren't allowed so switched to 0000000000 ([0-9]{10}) instead.
-
-
-* The white text on #3a3a3a background seemed bolder in certain browsers. From what I could find researching the problem it seems to be linked to font smoothing, may just be a mac issue as well.
-Screenshot below showing before and after -webkit-font-smoothing: antialiased; applied.
-Viewed using Chrome on iMac.
-
+## WHITE TEXT APPEARS BOLDER ON DARK BACKGROUND
+* **EXPECTED** - only difference was font/background colors between about moonup and about moonwatches section, wanted the font to have the same weight and size.
+* **TESTING** - launched website using terminal, tested the feature in web dev tools at various screen sizes.
+* **RESULT** - when scrolling through the website and between pages I noticed the white text on a grey background looked bolder. 
+* **FIX** - from what I could find researching the problem it seems to be linked to font smoothing, may just be a Mac issue as well.
+Screenshot below showing before and after -webkit-font-smoothing: antialiased; applied. Viewed using Chrome on iMac.
 ![font smoothing](readme-images/font-smoothing-chrome.png)
 
-* As of June 23, 2020, all major browsers — Chrome, Edge, Firefox & Safari (14+) — support the WebP format but I've noticed that it doesn't work on older versions of MacOs/Safari. I was going to try and set up a fallback using jpgs for these older OSs. The picture tag was recommended as a solution e.g.
+## CSS NOT DISPLAYING
+* **EXPECTED** - the website to display with CSS applied to all pages.
+* **TESTING** - launched website using terminal, tried navigating the website using the menu links.
+* **RESULT** - a number of the pages were appearing without any CSS being applied.
+* **FIX** - I checked the pages in question and saw they had absolute paths to the CSS file, changed links to relative paths.
 
-        <picture>
-            <source type="image/webp" srcset="assets/images/full-moon-silhouetted-branches-david-dibert 720px.webp">
-            <source type="image/jpg" srcset="assets/images/full-moon-silhouetted-branches-david-dibert.jpg">
-            <img src="assets/images/full-moon-silhouetted-branches-david-dibert.jpg"  type="image/jpg" alt="dark black sky with large full moon with silhouetted tree branches by david dibert">
-          </picture>    
+## EMPHASIS TAGS NOT APPLYING
+* **EXPECTED** - links with paragraph using inline <em></em> to appear italicised.
+* **TESTING** - launched website using terminal, scrolled to the relevant section to see appearance.
+* **RESULT** - the links didn't change to italic.
+* **FIX** - created em {font-style: italic;} in CSS to correct.
 
-I had some difficulty getting it to work though, with the jpg over-riding the webp in all instances. I discussed with a Code Institute Tutor and they suggested just sticking with webp as: There has to come a point where older browsers aren't developed for anymore and webp has been around for some time now. Most of the world is using a Chromium based browser or Firefox.
+## SVG LOGO NOT APPEARING
+* **EXPECTED** - moonup svg logo to appear in top left of website in navigation menu bar.
+* **TESTING** - launched website using terminal, scrolled to the relevant section to see appearance, tried multiple browsers.
+* **RESULT** - on certain browsers the logo wasn't appearing.
+* **FIX** - defined a height as well as width.
 
-* I had some hassle with centering on the sign-up page, used the code below to fix the problem. 
-https://medium.com/swlh/how-well-do-you-know-css-52290217ff6e
+## PLACEHOLDER TEXT TOO FAINT
+* **EXPECTED** - placeholder text used as guide to fill out the form to be subtle but legible. 
+* **TESTING** - launched website using terminal, went to the relevant section to see appearance, tried multiple browsers.
+* **RESULT** - because of the background and transparencies used the default placeholder text seemed too faint to my eyes.
+* **FIX** - changed the colour of the placeholder using some code from w3schools. https://www.w3schools.com/howto/howto_css_placeholder.asp
 
+## CENTERING ISSUE
+* **EXPECTED** - the form on the sign-up page to be centered in the browser window on a desktop view.
+* **TESTING** - launched website using terminal, went to the relevant section to see appearance, tried multiple browsers.
+* **RESULT** - the form wasn't centering as I wanted it to.
+* **FIX** - found this code when researching the problem: https://medium.com/swlh/how-well-do-you-know-css-52290217ff6e
     top: 50%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%)
 
-* I noticed my MOONup.svg logo wasn't displaying on Firefox and Safari. Fixed by defining the height.
+##
+* **EXPECTED** - website to resize and look well on mobile screen sizes down to 360px width.
+* **TESTING** - launched website using terminal, opened web dev tools, browsed through website to see appearance using various small screen mobile sizes.
+* **RESULT** - working ok in portrait mode but the moonup homepage and opening page of moonwatches didn't fit well in landscape format.
+* **FIX** - created a media query for small mobile screens in landscape format.
 
-
-* The placeholder text was very faint in some of the fields on the signup page. Changed the colour of the placeholder using some code from w3schools.
-https://www.w3schools.com/howto/howto_css_placeholder.asp
-
-* Couldn't get signup page to fit neatly on a range of mobile screens. I was trying to eliminate the need for much if any scrolling to the footer by using max-width queries.
-Added max-height queries to help resolve it. It worked but led to the form position moving a fraction and overlaying the logo slightly. Add a small position change to the
-max-height query in question to compensate.
-
-* Used <em></em> tags to highlight some links within para content, noticed they weren't working on certain browsers. Applied em {font-style: italic;} in CSS to correct.
-
-* Home and moonwatch opening pages didn't work well when small mobile screen sizes were in landscape format. Created media query to compensate.
-
-* After deployment, I could see the CSS wasn't applying on certain pages. I'd used absolute instead of relative paths, change the paths to fix the problem.
+##
+* **EXPECTED** - sign-up page form to resize to almost fit on a small mobile screen by using max width query.
+* **TESTING** - launched website using terminal, opened web dev tools went to the relevant section to see appearance using small screen mobile sizes.
+* **RESULT** - wasn't fitting as well as I'd hoped.
+* **FIX** - created a new media query using max height instead of max width.
 
 <br>
 <br>
@@ -485,9 +493,22 @@ max-height query in question to compensate.
 
 # KNOWN ISSUES
 
-* CSS code
-* Mobile responiveness in landscape
-* webp images in older browsers
+## WEBP IN OLDER BROWSERS
+
+* As of June 23, 2020, all major browsers — Chrome, Edge, Firefox & Safari (14+) — support the WebP format but I've noticed that it doesn't work on older versions of MacOs/Safari. 
+I was going to try and set up a fallback using jpgs for these older OSs. The picture tag was recommended as a solution e.g.
+
+        <picture>
+            <source type="image/webp" srcset="assets/images/full-moon-silhouetted-branches-david-dibert 720px.webp">
+            <source type="image/jpg" srcset="assets/images/full-moon-silhouetted-branches-david-dibert.jpg">
+            <img src="assets/images/full-moon-silhouetted-branches-david-dibert.jpg"  type="image/jpg" alt="dark black sky with large full moon with silhouetted tree branches by david dibert">
+          </picture>    
+
+* I had some difficulty getting it to work though, with the jpg over-riding the webp in all instances. I discussed with a Code Institute Tutor and they suggested just sticking with webp as: There has to come a point where older browsers aren't developed for anymore and webp has been around for some time now. Most of the world is using a Chromium based browser or Firefox.
+
+## CSS CODE
+
+* Given more time I would have like to severely edit my CSS code to make it leaner and remove any dead-code.
 
 <br>
 <br>
