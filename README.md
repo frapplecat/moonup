@@ -33,8 +33,6 @@
 - [MAPS PAGE](#maps-page)
 - [RESPONSIVENESS](#responsiveness)
 - [TECHNOLOGIES USED](#technologies-used)
-  * [LANGUAGES](#languages)
-  * [FRAMEWORKS, LIBRARIES & PROGRAMS USED](#frameworks-libraries-programs-used)
 - [VALIDATOR TESTING](#validator-testing)
   * [HTML](#html)
   * [CSS](#css)
@@ -169,7 +167,7 @@ I wanted to keep a simple, clean layout. I removed some headings above the fold 
 
 ![about moonup](readme-images/about-moonup.png)
  
-* The about MOONup section will briefly explain the groups goals, where they meet, what's needed for an attendee.
+* The about MOONup section will briefly explain the groups goals, where they meet, what an attendee needs to bring.
 * Also includes some links in the text content to other sections or pages with more detail.
 
 <br>
@@ -348,6 +346,7 @@ I wanted to keep a simple, clean layout. I removed some headings above the fold 
 * ADOBE ILLUSTRATOR - to create the logo and various headings
 * ADOBE INDESIGN - ran the readme text through InDesign's spellchecker
 * AM I RESPONSIVE - to display the website on a range of devices
+* RESPONSIVEDESIGNCHECKER.COM - to check the display of the website on a range of devices
 * FONT AWESOME - for icons
 * FAVICON.IO -  to create a favicon
 * CONVERTIO.CO - to change jpgs to webp format
@@ -411,9 +410,11 @@ https://coolors.co/contrast-checker/112a46-acc8e5
 <br>
 
 # MANUAL TESTING
-* I manually tested each link
-* I checked responsiveness using web dev tools in Chrome and Firefox.
-* I checked 
+* I manually tested each link on each page in different browsers and at different sizes.
+* I checked responsiveness using web dev tools in Chrome and Firefox. I manually resized each page to check flow and behaviour. I also viewed the site at various sizes: desktops to mobiles.
+* I also used https://responsivedesignchecker.com to check the website performance on a range of devices.
+* I tested that the forms pages submitted correctly using the Code Institute form-dump info before changing to Thank You pages.
+* I used the W3C SPELL CHECKER to check website spelling.
 
 <br>
 <br>
@@ -475,13 +476,13 @@ Screenshot below showing before and after -webkit-font-smoothing: antialiased; a
     margin-right: -50%;
     transform: translate(-50%, -50%)
 
-##
+## MOBILE LANDSCAPE FORMAT
 * **EXPECTED** - website to resize and look well on mobile screen sizes down to 360px width.
 * **TESTING** - launched website using terminal, opened web dev tools, browsed through website to see appearance using various small screen mobile sizes.
 * **RESULT** - working ok in portrait mode but the moonup homepage and opening page of moonwatches didn't fit well in landscape format.
 * **FIX** - created a media query for small mobile screens in landscape format.
 
-##
+## SIGN-UP PAGE AT SMALL MOBILE SIZE
 * **EXPECTED** - sign-up page form to resize to almost fit on a small mobile screen by using max width query.
 * **TESTING** - launched website using terminal, opened web dev tools went to the relevant section to see appearance using small screen mobile sizes.
 * **RESULT** - wasn't fitting as well as I'd hoped.
@@ -604,5 +605,3 @@ https://www.w3schools.com/howto/howto_css_placeholder.asp
 # MEDIA
 
 * The photos used throughout were mainly sourced from Pexels.com with some from Pixabay.com. I've kept the photographers names in the alt description when available.
-* Photos converted from jpg to webp using https://convertio.co/jpg-webp/
-* Photos resized using https://bulkresizephotos.com/en
