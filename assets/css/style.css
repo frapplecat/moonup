@@ -134,11 +134,8 @@ h2 {
 /* main image homepage */
 
 .homepage-moon-box {
-    height: 1100px;
-    width: 100%;
     overflow: hidden;
     position: relative;
-    background-color: #3a3a3a;
 }
 
 .homepage-moon {
@@ -167,7 +164,6 @@ h2 {
     text-transform: uppercase;
     padding: 15px;
     text-align: center;
-    align-items: center;
     justify-content: center;
     display: flex;
     flex-direction: column;
@@ -186,7 +182,6 @@ h2 {
 .moonwatch-circle>h1 {
     color: #3a3a3a;
     font-size: 450%;
-    top: 0;
 }
 
 .homepage-moon-circle>h2,

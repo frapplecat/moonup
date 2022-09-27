@@ -508,7 +508,7 @@ I was going to try and set up a fallback using jpgs for these older OSs. The pic
 
 ## CSS CODE
 
-* Given more time I would have like to severely edit my CSS code to make it leaner and remove any dead-code.
+* Given more time I would have like to severely edit my CSS code to make it leaner and remove any unused code.
 
 <br>
 <br>
