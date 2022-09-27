@@ -38,7 +38,7 @@
   * [CSS](#css)
   * [LIGHTHOUSE](#lighthouse)
   * [COLOUR](#colour)
-- [MANUAL TESTING](#manualtesting)
+- [MANUAL TESTING](#manual-testing)
 - [BUGS](#bugs)
 - [KNOWN ISSUES](#known-issues)
 - [DEPLOYMENT](#deployment)
