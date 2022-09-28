@@ -194,6 +194,7 @@ I wanted to keep a simple, clean layout. I removed some headings above the fold 
 * Links to other pages on right.
 * Bold white on active.
 * Yellow and bold on hover.
+* Different colour for visited links.
 
 ## MOBILE
 ![hamburger](readme-images/nav-hamburger-menu.png)
