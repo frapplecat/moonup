@@ -22,6 +22,7 @@
 - [NAVIGATION](#navigation)
   * [DESKTOP](#desktop)
   * [MOBILE](#mobile)
+  * [FOCUS TAB NAV](#focus-tab-nav)
   * [FOOTER](#footer)
   * [FAVICON](#favicon)
 - [MOONWATCH PAGE](#moonwatch-page)
@@ -200,6 +201,11 @@ I wanted to keep a simple, clean layout. I removed some headings above the fold 
 ![hamburger](readme-images/hamburger-opened.png)
 * Collapses to hamburger menu at smaller sizes.
 
+## FOCUS TAB NAV
+
+![focus-tab-nav](readme-images/moonup-focus-tab-ezgif.gif)
+* Used a pseudo :focus class to help accessiblity with keyboard navigation
+
 ## FOOTER
 
 ![footer](readme-images/footer.png)
@@ -207,6 +213,12 @@ I wanted to keep a simple, clean layout. I removed some headings above the fold 
 * Twitter, Facebook, Instagram, YouTube in the footer along with a contact us link. 
 * Turns yellow on hover.
 * All open in new windows.
+* Added some event details, plus logo and header images to social media pages
+
+![facebook](readme-images/moonup-facebook-light.png)
+![twitter](readme-images/moonup-twitter-light.png)
+![youtube](readme-images/moonup-youtube.png)
+![instagram](readme-images/moonup-instagram.png)
 
 ![back to top](readme-images/back-to-top.png)
 ![back to top](readme-images/footer-back-to-top.png)
